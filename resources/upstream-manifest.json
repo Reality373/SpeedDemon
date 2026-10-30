@@ -1,0 +1,1642 @@
+{
+  "retrieved_at": "2026-10-30T15:42:50.696Z",
+  "method": "GitHub connector; content-addressed blob retrieval",
+  "repositories": [
+    {
+      "repository": "hackathon-raptors/speed-demon-starter",
+      "commit": "430d690ec0959ae15e05f6c643ffc76a9e9bb923"
+    },
+    {
+      "repository": "hackathon-raptors/speed-demon-2026",
+      "commit": "39a24d1ec05d3f543d5138674f090fa71b63f25c"
+    }
+  ],
+  "omitted": [
+    {
+      "path": "speed-demon-2026/harness/timer/sd-timer-arm64",
+      "reason": "Binary ARM64 timer; connector supports UTF-8 only. Build the included C source for local x86-64."
+    }
+  ],
+  "files": [
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d02a27e6fbb0bd2c0bc9692107a7762fc11007a0",
+      "size": 12,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/d02a27e6fbb0bd2c0bc9692107a7762fc11007a0"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd080ee6c1a9025f92eed2f0cccb88c2207d77d9",
+      "size": 1133,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/bd080ee6c1a9025f92eed2f0cccb88c2207d77d9"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a81c2c9b1b4ee1006d74d6cd908ed6e116520868",
+      "size": 5596,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/a81c2c9b1b4ee1006d74d6cd908ed6e116520868"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e72d7db2c69f84311dd7211265263b6d1b9030f",
+      "size": 6041,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/8e72d7db2c69f84311dd7211265263b6d1b9030f"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-a/.speed-demon.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "592308065deaadbc1e29991800e6c975ee2b4808",
+      "size": 122,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/592308065deaadbc1e29991800e6c975ee2b4808"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-a/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "size": 259,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/0e86f12765d3f882b96d724f3a36c7cda4a48cc0"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-a/PERF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28c249ad4be7440b4e9c1d66006542ff3d811af5",
+      "size": 367,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/28c249ad4be7440b4e9c1d66006542ff3d811af5"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-a/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6066632da5e7df202b8f68b8e165e44bd93ec107",
+      "size": 305,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/6066632da5e7df202b8f68b8e165e44bd93ec107"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-a/a_ingest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32db204308ba386c88e1e23d4a832f5318682523",
+      "size": 2892,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/32db204308ba386c88e1e23d4a832f5318682523"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-a/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "size": 679,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/4e20aaa8edb83ee708280b753af0d38aa130028a"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-b/.speed-demon.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a2f83f44cb619de69ea064ceb9f648561a60e25",
+      "size": 122,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/7a2f83f44cb619de69ea064ceb9f648561a60e25"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-b/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "size": 259,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/0e86f12765d3f882b96d724f3a36c7cda4a48cc0"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-b/PERF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc47c4b9aca1ddf66075a01c2a3b59a0d6972a5d",
+      "size": 369,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/cc47c4b9aca1ddf66075a01c2a3b59a0d6972a5d"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-b/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3654b739e6c9860c2abbc36f5931a145592e4736",
+      "size": 303,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/3654b739e6c9860c2abbc36f5931a145592e4736"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-b/b_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7151096645347825627df16ae4786c89e46649",
+      "size": 4602,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/fd7151096645347825627df16ae4786c89e46649"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-b/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "size": 679,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/4e20aaa8edb83ee708280b753af0d38aa130028a"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-c/.speed-demon.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10c331cd348fb8ae8501a01dc246b0faa794869f",
+      "size": 122,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/10c331cd348fb8ae8501a01dc246b0faa794869f"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-c/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "size": 259,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/0e86f12765d3f882b96d724f3a36c7cda4a48cc0"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-c/PERF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4b6533aea2baf721bc1b3187d0d9315e78a8cfa",
+      "size": 367,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/e4b6533aea2baf721bc1b3187d0d9315e78a8cfa"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-c/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e4022e97b61ecfc55b9cc177f563dd48bec38a8",
+      "size": 301,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/5e4022e97b61ecfc55b9cc177f563dd48bec38a8"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-c/c_join.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "344ea5e33a0f8d2f9259d66e4e63f4bcac1d797c",
+      "size": 5412,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/344ea5e33a0f8d2f9259d66e4e63f4bcac1d797c"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-c/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "size": 679,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/4e20aaa8edb83ee708280b753af0d38aa130028a"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-d/.speed-demon.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "890085068d9ffafd98e4892f97b3578c3293e041",
+      "size": 122,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/890085068d9ffafd98e4892f97b3578c3293e041"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-d/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "size": 259,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/0e86f12765d3f882b96d724f3a36c7cda4a48cc0"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-d/PERF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b1ba97bd4ed769ad217b9243b57f77e87ad1e61",
+      "size": 367,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/3b1ba97bd4ed769ad217b9243b57f77e87ad1e61"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-d/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88401e5cd479f6787879b956b3ad3b31a3b1f3a2",
+      "size": 309,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/88401e5cd479f6787879b956b3ad3b31a3b1f3a2"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-d/d_traverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283863eeb5e3947bb49abd6af577b531fc410f69",
+      "size": 2582,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/283863eeb5e3947bb49abd6af577b531fc410f69"
+    },
+    {
+      "repo": "speed-demon-starter",
+      "key": "starter",
+      "path": "track-d/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "size": 679,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-starter/git/blobs/4e20aaa8edb83ee708280b753af0d38aa130028a"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42e7ad73ddedc7c3c4c850e50b2643185e4c2dc0",
+      "size": 41,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/42e7ad73ddedc7c3c4c850e50b2643185e4c2dc0"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "CONVENTIONS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d922db8800ec964a5b84656d706a3ef76135edd",
+      "size": 6125,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/5d922db8800ec964a5b84656d706a3ef76135edd"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04e9eadd753e9a41b32398de7ad2781d4c4b9fc2",
+      "size": 1078,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/04e9eadd753e9a41b32398de7ad2781d4c4b9fc2"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e486750d0386a15dc9ebc2936729fd75a44411f2",
+      "size": 1670,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/e486750d0386a15dc9ebc2936729fd75a44411f2"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0939e1f1c7c292f3e556c72ff3321f5b172a3e1b",
+      "size": 15718,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/0939e1f1c7c292f3e556c72ff3321f5b172a3e1b"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/axes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c69bc1cbbe655aed05b26814aa41a434b65f74e",
+      "size": 2803,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/5c69bc1cbbe655aed05b26814aa41a434b65f74e"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/board.example.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3137c03575a6c1492987ff477b62454d399c4e2b",
+      "size": 1688,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/3137c03575a6c1492987ff477b62454d399c4e2b"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/board.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0582840aef47118a5eb8906e5266cb6b345ee0",
+      "size": 57903,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/2c0582840aef47118a5eb8906e5266cb6b345ee0"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/buildkitd.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b38503e5d8268e2a7db3b9aec93399c01b529a0",
+      "size": 1890,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/6b38503e5d8268e2a7db3b9aec93399c01b529a0"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/fairqueue.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4774a4abd50be65bc5189c8a4e0906d7650bcc34",
+      "size": 7112,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/4774a4abd50be65bc5189c8a4e0906d7650bcc34"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/github_app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "979b7916bf8e34413b38071b745bd416be2f10c9",
+      "size": 3482,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/979b7916bf8e34413b38071b745bd416be2f10c9"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/guards.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60203616c243729328b67ebecbc1295430a0b302",
+      "size": 3502,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/60203616c243729328b67ebecbc1295430a0b302"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/health.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f3de4cd53e3d65cd92a345a231dd883b17ef57",
+      "size": 7128,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/58f3de4cd53e3d65cd92a345a231dd883b17ef57"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/publish.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7bdef16fa2ae8811a75abb675a5f0891aba3abc2",
+      "size": 2514,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/7bdef16fa2ae8811a75abb675a5f0891aba3abc2"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/records.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e79962f1d13e6e6895fb086a9ed36be5ca962ea",
+      "size": 14613,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/6e79962f1d13e6e6895fb086a9ed36be5ca962ea"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/security.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e08046fd788b1ef73bf040a58f6cbb083198ca6",
+      "size": 7619,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/1e08046fd788b1ef73bf040a58f6cbb083198ca6"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c12f50f39f12a275ad12fe039e7c03ad5e117ed2",
+      "size": 13290,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/c12f50f39f12a275ad12fe039e7c03ad5e117ed2"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/speeddemon-board-publish.service",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ee3487f4a5bc9a22d47d002d72a720237ef89c7",
+      "size": 930,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/4ee3487f4a5bc9a22d47d002d72a720237ef89c7"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/speeddemon-board.service",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5ee12086011d9d5bd7f28cd0887eeef468fa1a6",
+      "size": 2194,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/d5ee12086011d9d5bd7f28cd0887eeef468fa1a6"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/speeddemon-health.service",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1113f7d0526dfedafb0a3ac0490ef0f7b07d8807",
+      "size": 808,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/1113f7d0526dfedafb0a3ac0490ef0f7b07d8807"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/speeddemon-tally-sync.service",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ef443cbaea9808f882b885866f74196b9bde3cf",
+      "size": 628,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/5ef443cbaea9808f882b885866f74196b9bde3cf"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/speeddemon-tally-sync.timer",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec03b56f2b65082c991c8d40094025d29dfe97c6",
+      "size": 159,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/ec03b56f2b65082c991c8d40094025d29dfe97c6"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/steps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f862a3e9010e630f4d1cc0416f926ba0340cc637",
+      "size": 27237,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/f862a3e9010e630f4d1cc0416f926ba0340cc637"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "board/tally_sync.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ae84392f58aae5ad80da13b3054d6593b49794",
+      "size": 9526,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/19ae84392f58aae5ad80da13b3054d6593b49794"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "generators/a_ingest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab000ebfa4ed1acc27d552236cc3ac8b9ffae2d8",
+      "size": 22462,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/ab000ebfa4ed1acc27d552236cc3ac8b9ffae2d8"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "generators/b_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5521ecc518a55020d143ed2751e4db6d7aa2da90",
+      "size": 40680,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/5521ecc518a55020d143ed2751e4db6d7aa2da90"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "generators/c_join.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae613460e73ec4d033ef7ecdfded7c463540d8a",
+      "size": 15786,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/7ae613460e73ec4d033ef7ecdfded7c463540d8a"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "generators/d_traverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9c2c040064d4dafb69ec16439bc7f9257ddcab9",
+      "size": 18738,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/d9c2c040064d4dafb69ec16439bc7f9257ddcab9"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/FINAL_SCORING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05f0c3d25870f3529442f6ba3931952425015726",
+      "size": 4766,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/05f0c3d25870f3529442f6ba3931952425015726"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e03148758e897e07c4703c4698bf6de4fe90c1b0",
+      "size": 6654,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/e03148758e897e07c4703c4698bf6de4fe90c1b0"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/RECOVERY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb4a3d07f34e5ae49e691ea6b0ae0ff1e0ee51ec",
+      "size": 5352,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/eb4a3d07f34e5ae49e691ea6b0ae0ff1e0ee51ec"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/allowlist.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da13a1b628defd24cc3066ab97d6e71896b39023",
+      "size": 2940,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/da13a1b628defd24cc3066ab97d6e71896b39023"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/bootstrap-box.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e160231b22e5542609017ce4e53794b11db32ab0",
+      "size": 6397,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/e160231b22e5542609017ce4e53794b11db32ab0"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/calibrate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df82872fe372b2314807f81134693962b6c7c82",
+      "size": 4331,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/0df82872fe372b2314807f81134693962b6c7c82"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/calibration-seed1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be765aa4ff589958f5234bf398433d6e33748117",
+      "size": 3521,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/be765aa4ff589958f5234bf398433d6e33748117"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/dependencies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33730fde098daff015fbd8132dd47a13b712d20f",
+      "size": 44952,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/33730fde098daff015fbd8132dd47a13b712d20f"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/dockerfile_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb0afce1efb8bc07ee9325e7e73db94f6a01babd",
+      "size": 6088,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/cb0afce1efb8bc07ee9325e7e73db94f6a01babd"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/final_scoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0da0d48b27739af08a7d463ce1505251684a6117",
+      "size": 20276,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/0da0d48b27739af08a7d463ce1505251684a6117"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/harden-box.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b8a77f6dac76d9802ae2cb460ad1eb0f1abc5d1",
+      "size": 2189,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/2b8a77f6dac76d9802ae2cb460ad1eb0f1abc5d1"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/images/rust-llvm-tools/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7096b13251cb338593b4e65a36fbeaef12cee0",
+      "size": 719,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/ed7096b13251cb338593b4e65a36fbeaef12cee0"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/reference_axes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a70d796fb85d90ea25e80210df7b005f09d76f7a",
+      "size": 132,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/a70d796fb85d90ea25e80210df7b005f09d76f7a"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/run_submission.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f63c2b2196763ecf8d4a62a082bec39b740bcd6",
+      "size": 14196,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/2f63c2b2196763ecf8d4a62a082bec39b740bcd6"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/scoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3858e2e7b04b73b1229d48b99579648614ffddb",
+      "size": 2448,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/f3858e2e7b04b73b1229d48b99579648614ffddb"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/setup-box.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "890b8a487cbc3e6b92d955fa1c7dedd671192a70",
+      "size": 4489,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/890b8a487cbc3e6b92d955fa1c7dedd671192a70"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/static_axes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3d19b6c380184fbe8cc1e18734788ffa573ddbe",
+      "size": 43402,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/d3d19b6c380184fbe8cc1e18734788ffa573ddbe"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/timer/sd-timer.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "575a9c8f05203c9055ddd2981e464e60e90ef41c",
+      "size": 2922,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/575a9c8f05203c9055ddd2981e464e60e90ef41c"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/tools/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b423ee399d6e175b41345a24aaeeb014f5f7de1a",
+      "size": 8354,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/b423ee399d6e175b41345a24aaeeb014f5f7de1a"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "harness/tools/fetch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ed55442611628e441d8e08fd46c36989308e558",
+      "size": 676,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/9ed55442611628e441d8e08fd46c36989308e558"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "reference/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "size": 259,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/0e86f12765d3f882b96d724f3a36c7cda4a48cc0"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "reference/a_ingest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32db204308ba386c88e1e23d4a832f5318682523",
+      "size": 2892,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/32db204308ba386c88e1e23d4a832f5318682523"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "reference/b_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7151096645347825627df16ae4786c89e46649",
+      "size": 4602,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/fd7151096645347825627df16ae4786c89e46649"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "reference/c_join.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "344ea5e33a0f8d2f9259d66e4e63f4bcac1d797c",
+      "size": 5412,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/344ea5e33a0f8d2f9259d66e4e63f4bcac1d797c"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "reference/d_traverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283863eeb5e3947bb49abd6af577b531fc410f69",
+      "size": 2582,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/283863eeb5e3947bb49abd6af577b531fc410f69"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "reference/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "size": 679,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/4e20aaa8edb83ee708280b753af0d38aa130028a"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "specs/a-ingest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32283113a47fc811137f8291700b30f6d5a19fc9",
+      "size": 15137,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/32283113a47fc811137f8291700b30f6d5a19fc9"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "specs/b-index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb7346cff3e3d59c3777c1c09cd8947a72670d39",
+      "size": 20604,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/bb7346cff3e3d59c3777c1c09cd8947a72670d39"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "specs/c-join.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121193adb31078dacf0e954ac116ebb7ee3243f5",
+      "size": 22247,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/121193adb31078dacf0e954ac116ebb7ee3243f5"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "specs/d-traverse.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "445091484bc30140d7138d7a683615d278df032a",
+      "size": 17312,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/445091484bc30140d7138d7a683615d278df032a"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fe58d7e41b1b2de69d055579ced06a866dd35bb",
+      "size": 104,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/1fe58d7e41b1b2de69d055579ced06a866dd35bb"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24ecc49009ef58f42ee83a86c7f3444d13b5a210",
+      "size": 213,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/24ecc49009ef58f42ee83a86c7f3444d13b5a210"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/local/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04fda4b788f6e1860be7d25206ddf5476ff0793c",
+      "size": 34,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/04fda4b788f6e1860be7d25206ddf5476ff0793c"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/local/local.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dbecd65cbbcec45db95f0f25f7c669e57bd2326",
+      "size": 75,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/8dbecd65cbbcec45db95f0f25f7c669e57bd2326"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbf61a2da6a6476f7102e7305eed715a1dac9ffd",
+      "size": 202,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/fbf61a2da6a6476f7102e7305eed715a1dac9ffd"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/vendor/example.com/local/local.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dbecd65cbbcec45db95f0f25f7c669e57bd2326",
+      "size": 75,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/8dbecd65cbbcec45db95f0f25f7c669e57bd2326"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/vendor/github.com/a/b/b.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a435f8f845890133c838dc7e950b81454fde12",
+      "size": 37,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/09a435f8f845890133c838dc7e950b81454fde12"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/vendor/github.com/a/b/internal/x.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca3ed2d663bd0c83983a9655a7a7367ae2a430a3",
+      "size": 44,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/ca3ed2d663bd0c83983a9655a7a7367ae2a430a3"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/vendor/github.com/c/d/d.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "142fb423f66d15815b3e37fdc570ef5a70f9b5a1",
+      "size": 10,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/142fb423f66d15815b3e37fdc570ef5a70f9b5a1"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/vendor/golang.org/x/sys/unix/u.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a5e30f7e857018e74265c6a5f82d21b0b586833",
+      "size": 13,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/6a5e30f7e857018e74265c6a5f82d21b0b586833"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/go/vendor/modules.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed6eae4cb59fa6e8149488c850a9a0e63be04f84",
+      "size": 257,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/ed6eae4cb59fa6e8149488c850a9a0e63be04f84"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/java/pom.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f4ac12691ae540fb893d2c92de525b4e99f0d73",
+      "size": 1329,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/2f4ac12691ae540fb893d2c92de525b4e99f0d73"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/java/src/main/java/fixture/Main.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "811eb10fb4f8d7f71e205ead4bb9315e462928fc",
+      "size": 131,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/811eb10fb4f8d7f71e205ead4bb9315e462928fc"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/java/src/test/java/fixture/MainTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e98e0f49296f16a677cbe27c43531174c8959d9",
+      "size": 74,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/1e98e0f49296f16a677cbe27c43531174c8959d9"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/.prettierignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72e8ffc0db8aad71a934dd11e5968bd5109e54b4",
+      "size": 2,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/72e8ffc0db8aad71a934dd11e5968bd5109e54b4"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/.prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c721385451c869480c6c8c91a0f583849d0a1fd3",
+      "size": 36,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/c721385451c869480c6c8c91a0f583849d0a1fd3"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5a85a1bdac7a166d7848ddb78c599ef00deb89",
+      "size": 72,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/5f5a85a1bdac7a166d7848ddb78c599ef00deb89"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/lib/util.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d44641846f7096ac6834d6a18dfc2df03d33f7",
+      "size": 95,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/77d44641846f7096ac6834d6a18dfc2df03d33f7"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/node_modules/.package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d034295183386ad94a525e49ea5130c8e1a129a1",
+      "size": 42,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/d034295183386ad94a525e49ea5130c8e1a129a1"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/node_modules/@scope/pkg/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d752e206ca2739b0f82b2602ec83d3d6229e5ba0",
+      "size": 28,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/d752e206ca2739b0f82b2602ec83d3d6229e5ba0"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/node_modules/@scope/pkg/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73aa084d47f984e1e01e7b57be4ae60a7ac65c6a",
+      "size": 43,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/73aa084d47f984e1e01e7b57be4ae60a7ac65c6a"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/node_modules/fast-alias/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bbffde1044258153b038e2ca9a53a2b36c6c133",
+      "size": 20,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/4bbffde1044258153b038e2ca9a53a2b36c6c133"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/node_modules/fast-alias/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc065b13c33f541b137a685cbb863b2acebbbc96",
+      "size": 41,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/dc065b13c33f541b137a685cbb863b2acebbbc96"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/node_modules/left-pad/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ce3d4a2bdfcb46b73c45b4967f48570a1d5fc02",
+      "size": 75,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/4ce3d4a2bdfcb46b73c45b4967f48570a1d5fc02"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/node_modules/left-pad/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d04b16b5865f19385c65abd788264c14a447c949",
+      "size": 61,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/d04b16b5865f19385c65abd788264c14a447c949"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/node_modules/not-a-package/x.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd816eaba4ca3be8e4d68cfc0ae9f64b5aa712cc",
+      "size": 20,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/bd816eaba4ca3be8e4d68cfc0ae9f64b5aa712cc"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e7577a9334d46c0a0cdfdc4e9fcfaf0279d578",
+      "size": 66,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/81e7577a9334d46c0a0cdfdc4e9fcfaf0279d578"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/javascript/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e34433254b000543844af48b623386402a683c98",
+      "size": 294,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/e34433254b000543844af48b623386402a683c98"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/base.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e73a3a15135cbbe41004033b552db9b49c21dd3",
+      "size": 24,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/1e73a3a15135cbbe41004033b552db9b49c21dd3"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/localpkg/localpkg/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15b1b0797d64623135bb2d04a67bae078fa44c2",
+      "size": 10,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/b15b1b0797d64623135bb2d04a67bae078fa44c2"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/localpkg/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db76ed7137a413e53511084bd5819db0deb4d331",
+      "size": 75,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/db76ed7137a413e53511084bd5819db0deb4d331"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b96fe1dd9c4e8ec233ba0203daede41553a1c562",
+      "size": 375,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/b96fe1dd9c4e8ec233ba0203daede41553a1c562"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb4746036942bccf5e2175d17e297d3f96a4e984",
+      "size": 180,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/eb4746036942bccf5e2175d17e297d3f96a4e984"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/requirements-dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc52e8cfdc45e570825bec21d46004ddeadb2239",
+      "size": 10,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/cc52e8cfdc45e570825bec21d46004ddeadb2239"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eefe7b57eb1cf6ae0ded6e893735f963f37e309f",
+      "size": 306,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/eefe7b57eb1cf6ae0ded6e893735f963f37e309f"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/ruff.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5fa1b078d9340a1ca3528f4b34acbf579c50112",
+      "size": 18,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/e5fa1b078d9340a1ca3528f4b34acbf579c50112"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/third_party/bare/helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96144203e1e5b3841f65ab93d4f01f4948d708b",
+      "size": 28,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/c96144203e1e5b3841f65ab93d4f01f4948d708b"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/third_party/sortedcontainers-2.4.0.dist-info/METADATA",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12cb0afdcd76903971453fce48a6ffae625241c5",
+      "size": 107,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/12cb0afdcd76903971453fce48a6ffae625241c5"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/third_party/sortedcontainers-2.4.0.dist-info/RECORD",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "995e5c5e388bd5e451e2d5af9ab54c2f1adba409",
+      "size": 307,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/995e5c5e388bd5e451e2d5af9ab54c2f1adba409"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/third_party/sortedcontainers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4fd6da70d07dd009c7bdc7b905fdc125e0b4d9",
+      "size": 86,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/db4fd6da70d07dd009c7bdc7b905fdc125e0b4d9"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/third_party/sortedcontainers/added.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e14722989883793e84031ea396570bbb20157370",
+      "size": 14,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/e14722989883793e84031ea396570bbb20157370"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/python/third_party/sortedcontainers/sorteddict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8067bb0690a366784b47b38226755bd8f75b770b",
+      "size": 70,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/8067bb0690a366784b47b38226755bd8f75b770b"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/.cargo/config.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7aa6b497dda3960e8309c3a881854daa348e0bc",
+      "size": 221,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/c7aa6b497dda3960e8309c3a881854daa348e0bc"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/.ignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eba6c8dd4dcaf6166bd22285ed34625f38a84ff",
+      "size": 5,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/8eba6c8dd4dcaf6166bd22285ed34625f38a84ff"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/.sccignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59da35ed4322b36b9ad84c9415c994be01c2384",
+      "size": 8,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/b59da35ed4322b36b9ad84c9415c994be01c2384"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/.speed-demon.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "113c69fea356d2668d804d8479c445d4415a4ded",
+      "size": 68,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/113c69fea356d2668d804d8479c445d4415a4ded"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ef9e7bcff6895f56fabfc6c567c4ea7c9d8dc3",
+      "size": 423,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/52ef9e7bcff6895f56fabfc6c567c4ea7c9d8dc3"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff92cfa97c0f0eb854abaad989b149b7f3fa3fe6",
+      "size": 58,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/ff92cfa97c0f0eb854abaad989b149b7f3fa3fe6"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/crates/local/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba54a1820edfc6fc78b6a3e495960a8487e02283",
+      "size": 98,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/ba54a1820edfc6fc78b6a3e495960a8487e02283"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/crates/local/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edd659acaa584af5682a444815468fc8b088aa2e",
+      "size": 65,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/edd659acaa584af5682a444815468fc8b088aa2e"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/rustfmt.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6904767c9e36b4d602cc89285d1dc9247a1be949",
+      "size": 45,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/6904767c9e36b4d602cc89285d1dc9247a1be949"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1810b1d40d1685f1998719e862c58e23cf4dadef",
+      "size": 252,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/1810b1d40d1685f1998719e862c58e23cf4dadef"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/vendor/gitdep/.cargo-checksum.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7e11211e89016075da03d5997728efda11f2d2",
+      "size": 192,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/1c7e11211e89016075da03d5997728efda11f2d2"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/vendor/gitdep/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e0cf6c8430eb28e5527ffd5f642e6770e49a48c",
+      "size": 89,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/2e0cf6c8430eb28e5527ffd5f642e6770e49a48c"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/vendor/gitdep/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "812dcaf25197274edee383552de0781547410755",
+      "size": 27,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/812dcaf25197274edee383552de0781547410755"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/vendor/memchr/.cargo-checksum.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08c848e251b8a4739fc5322c6c07776101da5a86",
+      "size": 254,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/08c848e251b8a4739fc5322c6c07776101da5a86"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/vendor/memchr/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6e1cc13c0c79d58a441974be5e2fd60e0ad0a66",
+      "size": 61,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/b6e1cc13c0c79d58a441974be5e2fd60e0ad0a66"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/vendor/memchr/src/extra.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "397c7727e7017082f3a7012181c3c45e0ea2d5a1",
+      "size": 31,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/397c7727e7017082f3a7012181c3c45e0ea2d5a1"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/rust/vendor/memchr/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e45ab5ae27caa2c8a722c1758838f4a4ec4e8be",
+      "size": 176,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/4e45ab5ae27caa2c8a722c1758838f4a4ec4e8be"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/unknown/.speed-demon.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "887a5ceb9bb0c01d694427e9c5cc26523b03ba73",
+      "size": 67,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/887a5ceb9bb0c01d694427e9c5cc26523b03ba73"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/unknown/build.zig.zon",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b692eac7b16cf55d57e9ba217950a456150dfa39",
+      "size": 64,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/b692eac7b16cf55d57e9ba217950a456150dfa39"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/fixtures/static_axes/unknown/src/main.zig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb3845f0174fb80e13d57342ce1aab85af1a9a8",
+      "size": 155,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/adb3845f0174fb80e13d57342ce1aab85af1a9a8"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_a_ingest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521d96b4e80767194196e41e1c9a104c9c1569a8",
+      "size": 18126,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/521d96b4e80767194196e41e1c9a104c9c1569a8"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_b_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00f4802a7560cc435c13c489c0550d725335b82f",
+      "size": 18706,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/00f4802a7560cc435c13c489c0550d725335b82f"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_board.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e59189013be7090562daa19afde2aa4fbbac1a71",
+      "size": 54117,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/e59189013be7090562daa19afde2aa4fbbac1a71"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_c_join.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e452eea867379a0e6b6fbe097c036dafc1de3303",
+      "size": 21035,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/e452eea867379a0e6b6fbe097c036dafc1de3303"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_d_traverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ffb6b6bcae24ac99b60f903b3d01c42cc34347",
+      "size": 12813,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/32ffb6b6bcae24ac99b60f903b3d01c42cc34347"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_dockerfile_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a613b1ad03e32f9a37e0acc7c950ef25d0b94905",
+      "size": 3637,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/a613b1ad03e32f9a37e0acc7c950ef25d0b94905"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_final_scoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28a72dded53598bc11c889bdad0f333c1a436ad6",
+      "size": 4322,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/28a72dded53598bc11c889bdad0f333c1a436ad6"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_health.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d0a7a095a9171e068feaac9f1e894b5f0564385",
+      "size": 3114,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/0d0a7a095a9171e068feaac9f1e894b5f0564385"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_run_contract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3306aaefd99526c26fe49e7eeb382f9774b9773",
+      "size": 5024,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/f3306aaefd99526c26fe49e7eeb382f9774b9773"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_scoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6361818371641ee0aee799cffd227b5eb3ee313",
+      "size": 3789,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/d6361818371641ee0aee799cffd227b5eb3ee313"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_security.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f118b73a145aec806392f5ea52f11194adfd639",
+      "size": 4690,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/0f118b73a145aec806392f5ea52f11194adfd639"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_static_axes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e8c04cd3c1d399bda3bcc33c13ce12e485a8b23",
+      "size": 36185,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/9e8c04cd3c1d399bda3bcc33c13ce12e485a8b23"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8df0871284bbee1f5a265ed540861f52df99e3f",
+      "size": 5210,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/f8df0871284bbee1f5a265ed540861f52df99e3f"
+    },
+    {
+      "repo": "speed-demon-2026",
+      "key": "harness",
+      "path": "tests/test_tally_sync.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "343424524074ee03629276b186adf1b113f6e8d7",
+      "size": 9417,
+      "url": "https://api.github.com/repos/hackathon-raptors/speed-demon-2026/git/blobs/343424524074ee03629276b186adf1b113f6e8d7"
+    }
+  ]
+}
