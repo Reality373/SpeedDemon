@@ -1,0 +1,26 @@
+# Local inputs and generated outputs; retain inventory/readme files.
+/data/generated/
+/data/downloads/
+/results/runs/
+/results/work/
+/results/reference-outputs/
+/tools/bin/
+**/__pycache__/
+*.py[cod]
+/track-*/target/
+/track-*/build/
+/track-*/.out/
+.DS_Store
+
+# Local credentials, agent state, and editor/interpreter caches.
+/.aws/
+/.agents/
+/.codex/
+.env
+.env.*
+!.env.example
+/.venv/
+/.pytest_cache/
+/.ruff_cache/
+/.idea/
+/.vscode/
