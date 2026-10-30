@@ -1,0 +1,7 @@
+{
+  "finished_utc": "2026-10-30T15:55:13.767154+00:00",
+  "command": "python3 -B -m unittest discover -s tests -v",
+  "cwd": "resources/upstream/speed-demon-2026",
+  "exit_code": 0,
+  "log": "results/setup/upstream-tests.log"
+}

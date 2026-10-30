@@ -1,0 +1,261 @@
+test_sample (test_a_ingest.GeneratedData.test_sample) ... ok
+test_tiny (test_a_ingest.GeneratedData.test_tiny) ... ok
+test_catalogue_depends_on_seed_only (test_a_ingest.GeneratorDeterminism.test_catalogue_depends_on_seed_only) ... ok
+test_cli_matches_library (test_a_ingest.GeneratorDeterminism.test_cli_matches_library) ... ok
+test_different_seeds_differ (test_a_ingest.GeneratorDeterminism.test_different_seeds_differ) ... ok
+test_same_seed_same_bytes (test_a_ingest.GeneratorDeterminism.test_same_seed_same_bytes) ... ok
+test_sample_is_not_a_prefix_of_full (test_a_ingest.GeneratorDeterminism.test_sample_is_not_a_prefix_of_full) ... ok
+test_cli_writes_one_file (test_a_ingest.Reference.test_cli_writes_one_file) ... ok
+test_deterministic_on_tiny (test_a_ingest.Reference.test_deterministic_on_tiny) ... ok
+test_edge_cases (test_a_ingest.Reference.test_edge_cases) ... ok
+test_empty_input_gives_empty_output (test_a_ingest.Reference.test_empty_input_gives_empty_output) ... ok
+test_sample_matches_oracle (test_a_ingest.Reference.test_sample_matches_oracle) ... ok
+test_spec_contains_worked_example (test_a_ingest.Reference.test_spec_contains_worked_example) ... ok
+test_tiny_matches_oracle (test_a_ingest.Reference.test_tiny_matches_oracle) ... ok
+test_worked_example (test_a_ingest.Reference.test_worked_example) ... ok
+test_boolean_semantics (test_b_index.EdgeCases.test_boolean_semantics) ... ok
+test_digit_tokens_are_strings (test_b_index.EdgeCases.test_digit_tokens_are_strings) ... ok
+test_empty_and_separator_only_documents (test_b_index.EdgeCases.test_empty_and_separator_only_documents) ... ok
+test_phrase_semantics (test_b_index.EdgeCases.test_phrase_semantics) ... ok
+test_result_line_lists_ten_smallest_ids (test_b_index.EdgeCases.test_result_line_lists_ten_smallest_ids) ... ok
+test_tokenizer_byte_rule (test_b_index.EdgeCases.test_tokenizer_byte_rule) ... ok
+test_every_edge_case_is_present (test_b_index.GeneratedData.test_every_edge_case_is_present) ... ok
+test_file_formats (test_b_index.GeneratedData.test_file_formats) ... ok
+test_generator_is_deterministic (test_b_index.GeneratedData.test_generator_is_deterministic) ... ok
+test_reference_is_deterministic (test_b_index.GeneratedData.test_reference_is_deterministic) ... ok
+test_scales_do_not_share_records (test_b_index.GeneratedData.test_scales_do_not_share_records) ... ok
+test_seeds_differ (test_b_index.GeneratedData.test_seeds_differ) ... ok
+test_tokenizers_agree (test_b_index.GeneratedData.test_tokenizers_agree) ... ok
+test_reference_matches_worked_example (test_b_index.WorkedExample.test_reference_matches_worked_example) ... ok
+test_spec_shows_the_same_example (test_b_index.WorkedExample.test_spec_shows_the_same_example) ... ok
+test_rejected_dockerfile_and_held_second_push (test_board.BoardWithoutDockerTest.test_rejected_dockerfile_and_held_second_push) ... ok
+test_unchanged_starter_is_reported_not_run (test_board.BoardWithoutDockerTest.test_unchanged_starter_is_reported_not_run) ... ok
+test_refs_come_from_calibrate_py_output (test_board.CalibrationTest.test_refs_come_from_calibrate_py_output) ... ok
+test_copy_from_foreign_image_rejected (test_board.CheckTest.test_copy_from_foreign_image_rejected) ... ok
+test_reference_style_dockerfile_passes (test_board.CheckTest.test_reference_style_dockerfile_passes) ... ok
+test_symlinks_and_missing (test_board.CheckTest.test_symlinks_and_missing) ... ok
+test_bad_token_falls_back (test_board.DepotFallbackTest.test_bad_token_falls_back) ... ok
+test_depot_machine_launch_failure_falls_back (test_board.DepotFallbackTest.test_depot_machine_launch_failure_falls_back) ... ok
+test_disabled_does_not_fall_back (test_board.DepotFallbackTest.test_disabled_does_not_fall_back) ... ok
+test_killed_does_not_fall_back (test_board.DepotFallbackTest.test_killed_does_not_fall_back) ... ok
+test_missing_depot_cli_falls_back (test_board.DepotFallbackTest.test_missing_depot_cli_falls_back) ... depot CLI could not start (/nonexistent/depot)
+depot build unavailable for t:x; falling back to the on-box builder
+ok
+test_non_infra_preflight_does_not_fall_back (test_board.DepotFallbackTest.test_non_infra_preflight_does_not_fall_back) ... ok
+test_success_does_not_fall_back (test_board.DepotFallbackTest.test_success_does_not_fall_back) ... ok
+test_team_build_error_does_not_fall_back (test_board.DepotFallbackTest.test_team_build_error_does_not_fall_back) ... ok
+test_image_cap_and_hard_build_timeout (test_board.DockerEndToEndTest.test_image_cap_and_hard_build_timeout) ... skipped 'Docker is not available'
+test_push_build_run_record_prune (test_board.DockerEndToEndTest.test_push_build_run_record_prune) ... skipped 'Docker is not available'
+test_clone_saw_newer_head (test_board.FairQueueTest.test_clone_saw_newer_head) ... ok
+test_inflight_blocks_and_its_commit_does_not_requeue (test_board.FairQueueTest.test_inflight_blocks_and_its_commit_does_not_requeue) ... ok
+test_interrupted_job_requeued_once (test_board.FairQueueTest.test_interrupted_job_requeued_once) ... ok
+test_least_recently_served_first (test_board.FairQueueTest.test_least_recently_served_first) ... ok
+test_one_queued_run_per_team_newest_wins (test_board.FairQueueTest.test_one_queued_run_per_team_newest_wins) ... ok
+test_queue_order (test_board.FairQueueTest.test_queue_order) ... ok
+test_second_push_inside_interval_waits (test_board.FairQueueTest.test_second_push_inside_interval_waits) ... ok
+test_state_round_trips (test_board.FairQueueTest.test_state_round_trips) ... ok
+test_git_uses_the_provider_token_per_repo_and_redacts_it (test_board.GitHubAppTest.test_git_uses_the_provider_token_per_repo_and_redacts_it) ... ok
+test_jwt_is_signed_rs256_by_the_app_key (test_board.GitHubAppTest.test_jwt_is_signed_rs256_by_the_app_key) ... ok
+test_ls_remote_and_clone_local_repo (test_board.GitTest.test_ls_remote_and_clone_local_repo) ... ok
+test_token_only_in_environment (test_board.GitTest.test_token_only_in_environment) ... ok
+test_probe_failure_keeps_state (test_board.GuardsTest.test_probe_failure_keeps_state) ... disk probe failed: df failed
+ok
+test_watchdog_kills_pauses_and_resumes (test_board.GuardsTest.test_watchdog_kills_pauses_and_resumes) ... disk LOW, builds killed and paused: 0.0 GB free (stop below 0.0 GB, resume at 0.0 GB)
+ok
+test_force_local_skips_depot (test_board.NativeCpuTest.test_force_local_skips_depot) ... ok
+test_is_sigill (test_board.NativeCpuTest.test_is_sigill) ... ok
+test_native_flags_found (test_board.NativeCpuTest.test_native_flags_found) ... ok
+test_native_flags_not_found (test_board.NativeCpuTest.test_native_flags_not_found) ... ok
+test_requeue_rebuild_is_immediate_and_free (test_board.NativeCpuTest.test_requeue_rebuild_is_immediate_and_free) ... ok
+test_requeue_rebuild_yields_to_a_newer_push (test_board.NativeCpuTest.test_requeue_rebuild_yields_to_a_newer_push) ... ok
+test_sigill_on_depot_rebuilds_on_the_box_and_reruns (test_board.NativeCpuTest.test_sigill_on_depot_rebuilds_on_the_box_and_reruns) ... Delta track a hit SIGILL on a Depot-built image: rebuilding on the box
+ok
+test_atomic_write (test_board.RecordsTest.test_atomic_write) ... ok
+test_feed_best_latest_and_queue (test_board.RecordsTest.test_feed_best_latest_and_queue) ... ok
+test_history_is_append_only_and_survives_a_cut_line (test_board.RecordsTest.test_history_is_append_only_and_survives_a_cut_line) ... history line 2 is not JSON (a write cut short?); kept in the file, skipped
+history line 2 is not JSON (a write cut short?); kept in the file, skipped
+ok
+test_mirror_runs_after_trigger (test_board.RecordsTest.test_mirror_runs_after_trigger) ... ok
+test_building_does_not_gate_a_due_canary (test_board.ReferenceCanaryTest.test_building_does_not_gate_a_due_canary) ... ok
+test_drift_math_and_failure_modes (test_board.ReferenceCanaryTest.test_drift_math_and_failure_modes) ... ok
+test_due_gating_and_wait_bounds (test_board.ReferenceCanaryTest.test_due_gating_and_wait_bounds) ... ok
+test_once_does_not_arm_the_canary (test_board.ReferenceCanaryTest.test_once_does_not_arm_the_canary) ... registry /tmp/tmp3dlhsn9a/registry.json does not exist yet
+registry /tmp/tmp3dlhsn9a/registry.json does not exist yet
+ok
+test_paths_resolve_with_defaults (test_board.ReferenceCanaryTest.test_paths_resolve_with_defaults) ... ok
+test_pick_rotates_and_skips_uncalibrated (test_board.ReferenceCanaryTest.test_pick_rotates_and_skips_uncalibrated) ... ok
+test_public_view_is_numbers_free (test_board.ReferenceCanaryTest.test_public_view_is_numbers_free) ... registry /tmp/tmp3r79hj_d/registry.json does not exist yet
+ok
+test_serve_runner_takes_the_canary_branch (test_board.ReferenceCanaryTest.test_serve_runner_takes_the_canary_branch) ... registry /tmp/tmpiat13_tc/registry.json does not exist yet
+registry /tmp/tmpiat13_tc/registry.json does not exist yet
+ok
+test_validate_rejects_bad_reference_check (test_board.ReferenceCanaryTest.test_validate_rejects_bad_reference_check) ... ok
+test_github_urls_normalise (test_board.RegistryTest.test_github_urls_normalise) ... ok
+test_load_registry (test_board.RegistryTest.test_load_registry) ... ok
+test_other_urls_rejected (test_board.RegistryTest.test_other_urls_rejected) ... ok
+test_gates_match_run_submission (test_board.StepsTest.test_gates_match_run_submission) ... ok
+test_line_tail_keeps_only_the_end (test_board.StepsTest.test_line_tail_keeps_only_the_end) ... ok
+test_score (test_board.StepsTest.test_score) ... ok
+test_a_code_change_runs (test_board.UnchangedReferenceTest.test_a_code_change_runs) ... ok
+test_a_dockerfile_change_runs (test_board.UnchangedReferenceTest.test_a_dockerfile_change_runs) ... ok
+test_a_new_file_runs (test_board.UnchangedReferenceTest.test_a_new_file_runs) ... ok
+test_a_symlinked_copy_runs (test_board.UnchangedReferenceTest.test_a_symlinked_copy_runs) ... ok
+test_edited_docs_are_still_unchanged (test_board.UnchangedReferenceTest.test_edited_docs_are_still_unchanged) ... ok
+test_starter_as_shipped_is_unchanged (test_board.UnchangedReferenceTest.test_starter_as_shipped_is_unchanged) ... ok
+test_generator_is_deterministic_across_processes (test_c_join.Determinism.test_generator_is_deterministic_across_processes) ... ok
+test_reference_is_deterministic (test_c_join.Determinism.test_reference_is_deterministic) ... ok
+test_seeds_and_scales_differ (test_c_join.Determinism.test_seeds_and_scales_differ) ... ok
+test_conformance (test_c_join.GeneratedData.test_conformance) ... ok
+test_every_edge_case_is_present (test_c_join.GeneratedData.test_every_edge_case_is_present) ... ok
+test_output_format (test_c_join.GeneratedData.test_output_format) ... ok
+test_record_counts (test_c_join.GeneratedData.test_record_counts) ... ok
+test_reference_matches_independent_parse (test_c_join.GeneratedData.test_reference_matches_independent_parse) ... ok
+test_money_formatting (test_c_join.HandWrittenCases.test_money_formatting) ... ok
+test_ordering_is_bytewise_and_unmatched_sorts_last (test_c_join.HandWrittenCases.test_ordering_is_bytewise_and_unmatched_sorts_last) ... ok
+test_rules_the_generator_never_exercises (test_c_join.HandWrittenCases.test_rules_the_generator_never_exercises) ... ok
+test_worked_example (test_c_join.HandWrittenCases.test_worked_example) ... ok
+test_worked_example_independent_parser (test_c_join.HandWrittenCases.test_worked_example_independent_parser) ... ok
+test_worked_example_starts_with_the_site_preview (test_c_join.HandWrittenCases.test_worked_example_starts_with_the_site_preview) ... ok
+test_cli (test_d_traverse.GeneratedData.test_cli) ... ok
+test_generator_is_deterministic (test_d_traverse.GeneratedData.test_generator_is_deterministic) ... ok
+test_graph_edge_cases_present (test_d_traverse.GeneratedData.test_graph_edge_cases_present) ... ok
+test_parallel_minimum_decides_some_answers (test_d_traverse.GeneratedData.test_parallel_minimum_decides_some_answers) ... ok
+test_query_edge_cases_present (test_d_traverse.GeneratedData.test_query_edge_cases_present) ... ok
+test_reference_is_deterministic_and_matches_bellman_ford_on_tiny (test_d_traverse.GeneratedData.test_reference_is_deterministic_and_matches_bellman_ford_on_tiny) ... ok
+test_sizes_and_format (test_d_traverse.GeneratedData.test_sizes_and_format) ... ok
+test_direction_matters (test_d_traverse.HandWrittenCases.test_direction_matters) ... ok
+test_long_chain_of_max_weights_fits_in_int64 (test_d_traverse.HandWrittenCases.test_long_chain_of_max_weights_fits_in_int64) ... ok
+test_parallel_edges_lighter_listed_first (test_d_traverse.HandWrittenCases.test_parallel_edges_lighter_listed_first) ... ok
+test_parallel_edges_three_way_and_exact_duplicates (test_d_traverse.HandWrittenCases.test_parallel_edges_three_way_and_exact_duplicates) ... ok
+test_source_with_no_out_edges_and_target_with_no_in_edges (test_d_traverse.HandWrittenCases.test_source_with_no_out_edges_and_target_with_no_in_edges) ... ok
+test_worked_example (test_d_traverse.HandWrittenCases.test_worked_example) ... ok
+test_zero_weight_cycle_and_zero_distance (test_d_traverse.HandWrittenCases.test_zero_weight_cycle_and_zero_distance) ... ok
+test_add_urls (test_dockerfile_check.DockerfileCheckTest.test_add_urls) ... ok
+test_comment_or_blank_inside_continuation_does_not_split_it (test_dockerfile_check.DockerfileCheckTest.test_comment_or_blank_inside_continuation_does_not_split_it) ... ok
+test_continuations_are_joined (test_dockerfile_check.DockerfileCheckTest.test_continuations_are_joined) ... ok
+test_copy_from_foreign_image (test_dockerfile_check.DockerfileCheckTest.test_copy_from_foreign_image) ... ok
+test_frontend_and_network_flags (test_dockerfile_check.DockerfileCheckTest.test_frontend_and_network_flags) ... ok
+test_heredoc_stays_allowed (test_dockerfile_check.DockerfileCheckTest.test_heredoc_stays_allowed) ... ok
+test_mount_from_foreign_image_and_cache (test_dockerfile_check.DockerfileCheckTest.test_mount_from_foreign_image_and_cache) ... ok
+test_multi_stage_passes (test_dockerfile_check.DockerfileCheckTest.test_multi_stage_passes) ... ok
+test_only_the_check_directive_is_allowed (test_dockerfile_check.DockerfileCheckTest.test_only_the_check_directive_is_allowed) ... ok
+test_unpinned_or_unknown_base (test_dockerfile_check.DockerfileCheckTest.test_unpinned_or_unknown_base) ... ok
+test_drift_fraction (test_final_scoring.HelperTest.test_drift_fraction) ... ok
+test_partition (test_final_scoring.HelperTest.test_partition) ... ok
+test_reference_ref_block (test_final_scoring.HelperTest.test_reference_ref_block) ... ok
+test_all_clean (test_final_scoring.ScoreTrackTest.test_all_clean) ... ok
+test_earlier_batches_survive_a_later_halt (test_final_scoring.ScoreTrackTest.test_earlier_batches_survive_a_later_halt) ... ok
+test_persistent_drift_halts_after_two_rescores (test_final_scoring.ScoreTrackTest.test_persistent_drift_halts_after_two_rescores) ... ok
+test_reference_failure_halts_gracefully (test_final_scoring.ScoreTrackTest.test_reference_failure_halts_gracefully) ... ok
+test_rescore_recovers (test_final_scoring.ScoreTrackTest.test_rescore_recovers) ... ok
+test_busy_split_by_core_group (test_health.HealthTest.test_busy_split_by_core_group) ... ok
+test_document_is_public_safe_and_atomic (test_health.HealthTest.test_document_is_public_safe_and_atomic) ... ok
+test_energy_survives_restart_and_resets_at_kickoff (test_health.HealthTest.test_energy_survives_restart_and_resets_at_kickoff) ... ok
+test_memory_used_excludes_page_cache (test_health.HealthTest.test_memory_used_excludes_page_cache) ... ok
+test_rapl_delta_wraps (test_health.HealthTest.test_rapl_delta_wraps) ... ok
+test_fifo_or_symlink_output_fails_fast (test_run_contract.RunContractTest.test_fifo_or_symlink_output_fails_fast) ... skipped 'Docker is not available'
+test_healthcheck_cannot_plant_a_timing_record (test_run_contract.RunContractTest.test_healthcheck_cannot_plant_a_timing_record) ... skipped 'Docker is not available'
+test_image_user_does_not_pick_the_timer_user (test_run_contract.RunContractTest.test_image_user_does_not_pick_the_timer_user) ... skipped 'Docker is not available'
+test_record_that_disagrees_with_the_exit_status_is_refused (test_run_contract.RunContractTest.test_record_that_disagrees_with_the_exit_status_is_refused) ... skipped 'Docker is not available'
+test_stderr_flood_is_bounded (test_run_contract.RunContractTest.test_stderr_flood_is_bounded) ... skipped 'Docker is not available'
+test_volume_image_is_refused_before_it_runs (test_run_contract.RunContractTest.test_volume_image_is_refused_before_it_runs) ... skipped 'Docker is not available'
+test_curve_anchors (test_scoring.ScoringTest.test_curve_anchors) ... ok
+test_exponents_sum_to_one (test_scoring.ScoringTest.test_exponents_sum_to_one) ... ok
+test_k_from_measurements (test_scoring.ScoringTest.test_k_from_measurements) ... ok
+test_library_wrapper_loses_to_inline (test_scoring.ScoringTest.test_library_wrapper_loses_to_inline) ... ok
+test_memory_cap (test_scoring.ScoringTest.test_memory_cap) ... ok
+test_nightshade_vector (test_scoring.ScoringTest.test_nightshade_vector) ... ok
+test_overall_best_three (test_scoring.ScoringTest.test_overall_best_three) ... ok
+test_source_size_cannot_pay (test_scoring.ScoringTest.test_source_size_cannot_pay) ... ok
+test_wall_time_is_uncapped (test_scoring.ScoringTest.test_wall_time_is_uncapped) ... ok
+test_zero_lines_sit_at_the_s_cap (test_scoring.ZeroSourceTest.test_zero_lines_sit_at_the_s_cap) ... ok
+test_dockerfile_reach_vs_slip (test_security.FlagsTest.test_dockerfile_reach_vs_slip) ... ok
+test_run_flags (test_security.FlagsTest.test_run_flags) ... ok
+test_suspicious_files (test_security.FlagsTest.test_suspicious_files) ... ok
+test_emit_dedupe_summary_and_private_modes (test_security.SecurityLogTest.test_emit_dedupe_summary_and_private_modes) ... ok
+test_feed_never_carries_security_flags (test_security.SecurityLogTest.test_feed_never_carries_security_flags) ... ok
+test_go_skips_indirect_requires_and_local_replacements (test_static_axes.DependencyAxisTest.test_go_skips_indirect_requires_and_local_replacements) ... ok
+test_java_counts_compile_and_runtime_scopes_only (test_static_axes.DependencyAxisTest.test_java_counts_compile_and_runtime_scopes_only) ... ok
+test_javascript_counts_optional_dependencies_and_resolves_aliases (test_static_axes.DependencyAxisTest.test_javascript_counts_optional_dependencies_and_resolves_aliases) ... ok
+test_python_reads_requirements_includes_and_pyproject (test_static_axes.DependencyAxisTest.test_python_reads_requirements_includes_and_pyproject) ... ok
+test_rust_counts_target_and_workspace_dependencies_not_dev_or_build (test_static_axes.DependencyAxisTest.test_rust_counts_target_and_workspace_dependencies_not_dev_or_build) ... ok
+test_unknown_ecosystem_falls_back_to_the_declared_count (test_static_axes.DependencyAxisTest.test_unknown_ecosystem_falls_back_to_the_declared_count) ... ok
+test_missing_docker_is_a_clear_error (test_static_axes.DockerChecksTest.test_missing_docker_is_a_clear_error) ... ok
+test_missing_image_names_the_build_command (test_static_axes.DockerChecksTest.test_missing_image_names_the_build_command) ... ok
+test_options_are_keyword_only (test_static_axes.DockerChecksTest.test_options_are_keyword_only) ... ok
+test_the_tools_container_is_sandboxed_and_can_be_pinned (test_static_axes.DockerChecksTest.test_the_tools_container_is_sandboxed_and_can_be_pinned) ... ok
+test_cabal (test_static_axes.ManifestParserTest.test_cabal) ... ok
+test_cargo_workspace_path_dependency_is_local (test_static_axes.ManifestParserTest.test_cargo_workspace_path_dependency_is_local) ... ok
+test_declared_count_is_used_only_without_manifests (test_static_axes.ManifestParserTest.test_declared_count_is_used_only_without_manifests) ... ok
+test_go_replace_by_another_module_counts_the_replacement (test_static_axes.ManifestParserTest.test_go_replace_by_another_module_counts_the_replacement) ... ok
+test_gradle (test_static_axes.ManifestParserTest.test_gradle) ... ok
+test_msbuild (test_static_axes.ManifestParserTest.test_msbuild) ... ok
+test_npm_specs (test_static_axes.ManifestParserTest.test_npm_specs) ... ok
+test_package_swift (test_static_axes.ManifestParserTest.test_package_swift) ... ok
+test_path_outside_the_track_counts_and_is_noted (test_static_axes.ManifestParserTest.test_path_outside_the_track_counts_and_is_noted) ... ok
+test_pipfile_and_poetry (test_static_axes.ManifestParserTest.test_pipfile_and_poetry) ... ok
+test_requirements_edge_cases (test_static_axes.ManifestParserTest.test_requirements_edge_cases) ... ok
+test_unparseable_manifest_is_noted_not_fatal (test_static_axes.ManifestParserTest.test_unparseable_manifest_is_noted_not_fatal) ... ok
+test_identical_copy_is_found_and_edited_copy_is_not (test_static_axes.PublishedCopiesTest.test_identical_copy_is_found_and_edited_copy_is_not) ... ok
+test_flags_packages_first_published_on_or_after_the_cutoff (test_static_axes.RegistryCheckTest.test_flags_packages_first_published_on_or_after_the_cutoff) ... ok
+test_go_proxy_paths_are_case_encoded_and_the_earliest_version_wins (test_static_axes.RegistryCheckTest.test_go_proxy_paths_are_case_encoded_and_the_earliest_version_wins) ... ok
+test_maven_pages_through_every_version (test_static_axes.RegistryCheckTest.test_maven_pages_through_every_version) ... ok
+test_nuget_skips_unlisted_versions_and_follows_pages (test_static_axes.RegistryCheckTest.test_nuget_skips_unlisted_versions_and_follows_pages) ... ok
+test_reports_what_it_cannot_check_instead_of_guessing (test_static_axes.RegistryCheckTest.test_reports_what_it_cannot_check_instead_of_guessing) ... ok
+test_a_file_the_formatter_rejects_is_counted_as_written (test_static_axes.SourceSizeTest.test_a_file_the_formatter_rejects_is_counted_as_written) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_command_line (test_static_axes.SourceSizeTest.test_command_line) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_comments_and_blank_lines_are_not_code (test_static_axes.SourceSizeTest.test_comments_and_blank_lines_are_not_code) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_d_is_reported_alongside (test_static_axes.SourceSizeTest.test_d_is_reported_alongside) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_formatters_are_recorded_and_missing_ones_said (test_static_axes.SourceSizeTest.test_formatters_are_recorded_and_missing_ones_said) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_go_lines_with_several_statements_are_flagged (test_static_axes.SourceSizeTest.test_go_lines_with_several_statements_are_flagged) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_long_lines_after_formatting_are_flagged (test_static_axes.SourceSizeTest.test_long_lines_after_formatting_are_flagged) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_minified_files_count_as_formatted (test_static_axes.SourceSizeTest.test_minified_files_count_as_formatted)
+One-line files expand under their formatter, and configuration in the submission is ignored. ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_prose_data_and_lockfiles_are_listed_not_counted (test_static_axes.SourceSizeTest.test_prose_data_and_lockfiles_are_listed_not_counted) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_reference_axes_file_is_current (test_static_axes.SourceSizeTest.test_reference_axes_file_is_current) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_registry_packages_are_excluded_and_listed (test_static_axes.SourceSizeTest.test_registry_packages_are_excluded_and_listed) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_s_for_each_fixture (test_static_axes.SourceSizeTest.test_s_for_each_fixture) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_the_submission_is_never_modified (test_static_axes.SourceSizeTest.test_the_submission_is_never_modified) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_vendored_code_that_is_not_a_registry_package_counts_and_is_flagged (test_static_axes.SourceSizeTest.test_vendored_code_that_is_not_a_registry_package_counts_and_is_flagged) ... skipped 'the tools image is not built; run: docker build -t speeddemon/static-tools:2026-10-28 harness/tools'
+test_a_file_scc_names_differently_still_counts (test_static_axes.TallyTest.test_a_file_scc_names_differently_still_counts) ... ok
+test_prose_data_unrecognised_and_binary_files_are_listed (test_static_axes.TallyTest.test_prose_data_unrecognised_and_binary_files_are_listed) ... ok
+test_a_crate_declared_as_git_is_not_a_registry_package (test_static_axes.VendoredPackagesTest.test_a_crate_declared_as_git_is_not_a_registry_package)
+Even with a registry checksum, a crate the manifest pulls from git counts in S. ... ok
+test_cargo_registry_crate_is_excluded_git_crate_and_added_files_are_not (test_static_axes.VendoredPackagesTest.test_cargo_registry_crate_is_excluded_git_crate_and_added_files_are_not) ... ok
+test_go_vendor_modules_own_only_their_listed_package_directories (test_static_axes.VendoredPackagesTest.test_go_vendor_modules_own_only_their_listed_package_directories) ... ok
+test_npm_packages_need_a_package_json (test_static_axes.VendoredPackagesTest.test_npm_packages_need_a_package_json) ... ok
+test_python_distribution_owns_exactly_its_record (test_static_axes.VendoredPackagesTest.test_python_distribution_owns_exactly_its_record) ... ok
+test_active_and_no_bins_past_freeze (test_stats.BuildStatsTest.test_active_and_no_bins_past_freeze) ... ok
+test_baseline_is_not_counted (test_stats.BuildStatsTest.test_baseline_is_not_counted) ... ok
+test_counters_hours_records_languages (test_stats.BuildStatsTest.test_counters_hours_records_languages) ... ok
+test_feed_never_carries_the_language (test_stats.BuildStatsTest.test_feed_never_carries_the_language) ... ok
+test_ten_percent_rule (test_stats.BuildStatsTest.test_ten_percent_rule) ... ok
+test_from_scc_per_language (test_stats.CodeLanguagesTest.test_from_scc_per_language) ... ok
+test_build_stage_names_the_language (test_stats.TrackLanguageTest.test_build_stage_names_the_language) ... ok
+test_exclude_by_team_or_submission_id (test_tally_sync.BuildRegistry.test_exclude_by_team_or_submission_id) ... ok
+test_extra_overrides_the_form (test_tally_sync.BuildRegistry.test_extra_overrides_the_form) ... ok
+test_extra_releases_a_held_owner_change (test_tally_sync.BuildRegistry.test_extra_releases_a_held_owner_change) ... ok
+test_held_submission_is_a_security_event_once (test_tally_sync.BuildRegistry.test_held_submission_is_a_security_event_once) ... tally-sync: skipped T (s2): held, the team was registered with a repo owned by 'a', this submission names 'm'
+tally-sync: skipped T (s2): held, the team was registered with a repo owned by 'a', this submission names 'm'
+ok
+test_latest_submission_per_team_wins (test_tally_sync.BuildRegistry.test_latest_submission_per_team_wins) ... ok
+test_output_loads_in_the_board (test_tally_sync.BuildRegistry.test_output_loads_in_the_board) ... ok
+test_real_shape (test_tally_sync.BuildRegistry.test_real_shape) ... ok
+test_refused_entries_are_reported_not_written (test_tally_sync.BuildRegistry.test_refused_entries_are_reported_not_written) ... ok
+test_renamed_question_fails_loudly (test_tally_sync.BuildRegistry.test_renamed_question_fails_loudly) ... ok
+test_resubmission_to_another_owner_is_held (test_tally_sync.BuildRegistry.test_resubmission_to_another_owner_is_held) ... ok
+test_team_names_are_cleaned (test_tally_sync.BuildRegistry.test_team_names_are_cleaned) ... ok
+test_empty_form_never_wipes_a_filled_registry (test_tally_sync.WriteAndMain.test_empty_form_never_wipes_a_filled_registry) ... tally-sync: the form returned no teams but the registry has some; left as is
+ok
+test_fetch_failure_leaves_registry (test_tally_sync.WriteAndMain.test_fetch_failure_leaves_registry) ... tally-sync: fetch failed, registry left as is: down
+ok
+test_main_writes_registry (test_tally_sync.WriteAndMain.test_main_writes_registry) ... ok
+test_write_only_when_changed (test_tally_sync.WriteAndMain.test_write_only_when_changed) ... ok
+
+----------------------------------------------------------------------
+Ran 235 tests in 70.699s
+
+OK (skipped=22)
+tally-sync: 1 teams from 2 submissions, 1 skipped, registry updated
+tally-sync: 1 teams from 2 submissions, 1 skipped, no change
+tally-sync: 1 teams from 1 submissions, 0 skipped, registry updated

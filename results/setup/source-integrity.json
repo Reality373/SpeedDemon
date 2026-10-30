@@ -1,0 +1,980 @@
+{
+  "checked_utc": "2026-10-30T15:58:03.551120+00:00",
+  "checked_files": 162,
+  "all_match": true,
+  "context_sha256": "1ccbe97c2c7f0b15b46d01d393ae7e5c464cf001495dda250b99a5c563f8bc28",
+  "files": [
+    {
+      "path": "resources/upstream/speed-demon-starter/.gitignore",
+      "expected_git_blob": "d02a27e6fbb0bd2c0bc9692107a7762fc11007a0",
+      "actual_git_blob": "d02a27e6fbb0bd2c0bc9692107a7762fc11007a0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/LICENSE",
+      "expected_git_blob": "bd080ee6c1a9025f92eed2f0cccb88c2207d77d9",
+      "actual_git_blob": "bd080ee6c1a9025f92eed2f0cccb88c2207d77d9",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/README.md",
+      "expected_git_blob": "a81c2c9b1b4ee1006d74d6cd908ed6e116520868",
+      "actual_git_blob": "a81c2c9b1b4ee1006d74d6cd908ed6e116520868",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/check.py",
+      "expected_git_blob": "8e72d7db2c69f84311dd7211265263b6d1b9030f",
+      "actual_git_blob": "8e72d7db2c69f84311dd7211265263b6d1b9030f",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-a/.speed-demon.toml",
+      "expected_git_blob": "592308065deaadbc1e29991800e6c975ee2b4808",
+      "actual_git_blob": "592308065deaadbc1e29991800e6c975ee2b4808",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-a/Dockerfile",
+      "expected_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "actual_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-a/PERF.md",
+      "expected_git_blob": "28c249ad4be7440b4e9c1d66006542ff3d811af5",
+      "actual_git_blob": "28c249ad4be7440b4e9c1d66006542ff3d811af5",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-a/README.md",
+      "expected_git_blob": "6066632da5e7df202b8f68b8e165e44bd93ec107",
+      "actual_git_blob": "6066632da5e7df202b8f68b8e165e44bd93ec107",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-a/a_ingest.py",
+      "expected_git_blob": "32db204308ba386c88e1e23d4a832f5318682523",
+      "actual_git_blob": "32db204308ba386c88e1e23d4a832f5318682523",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-a/run.py",
+      "expected_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "actual_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-b/.speed-demon.toml",
+      "expected_git_blob": "7a2f83f44cb619de69ea064ceb9f648561a60e25",
+      "actual_git_blob": "7a2f83f44cb619de69ea064ceb9f648561a60e25",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-b/Dockerfile",
+      "expected_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "actual_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-b/PERF.md",
+      "expected_git_blob": "cc47c4b9aca1ddf66075a01c2a3b59a0d6972a5d",
+      "actual_git_blob": "cc47c4b9aca1ddf66075a01c2a3b59a0d6972a5d",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-b/README.md",
+      "expected_git_blob": "3654b739e6c9860c2abbc36f5931a145592e4736",
+      "actual_git_blob": "3654b739e6c9860c2abbc36f5931a145592e4736",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-b/b_index.py",
+      "expected_git_blob": "fd7151096645347825627df16ae4786c89e46649",
+      "actual_git_blob": "fd7151096645347825627df16ae4786c89e46649",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-b/run.py",
+      "expected_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "actual_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-c/.speed-demon.toml",
+      "expected_git_blob": "10c331cd348fb8ae8501a01dc246b0faa794869f",
+      "actual_git_blob": "10c331cd348fb8ae8501a01dc246b0faa794869f",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-c/Dockerfile",
+      "expected_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "actual_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-c/PERF.md",
+      "expected_git_blob": "e4b6533aea2baf721bc1b3187d0d9315e78a8cfa",
+      "actual_git_blob": "e4b6533aea2baf721bc1b3187d0d9315e78a8cfa",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-c/README.md",
+      "expected_git_blob": "5e4022e97b61ecfc55b9cc177f563dd48bec38a8",
+      "actual_git_blob": "5e4022e97b61ecfc55b9cc177f563dd48bec38a8",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-c/c_join.py",
+      "expected_git_blob": "344ea5e33a0f8d2f9259d66e4e63f4bcac1d797c",
+      "actual_git_blob": "344ea5e33a0f8d2f9259d66e4e63f4bcac1d797c",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-c/run.py",
+      "expected_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "actual_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-d/.speed-demon.toml",
+      "expected_git_blob": "890085068d9ffafd98e4892f97b3578c3293e041",
+      "actual_git_blob": "890085068d9ffafd98e4892f97b3578c3293e041",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-d/Dockerfile",
+      "expected_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "actual_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-d/PERF.md",
+      "expected_git_blob": "3b1ba97bd4ed769ad217b9243b57f77e87ad1e61",
+      "actual_git_blob": "3b1ba97bd4ed769ad217b9243b57f77e87ad1e61",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-d/README.md",
+      "expected_git_blob": "88401e5cd479f6787879b956b3ad3b31a3b1f3a2",
+      "actual_git_blob": "88401e5cd479f6787879b956b3ad3b31a3b1f3a2",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-d/d_traverse.py",
+      "expected_git_blob": "283863eeb5e3947bb49abd6af577b531fc410f69",
+      "actual_git_blob": "283863eeb5e3947bb49abd6af577b531fc410f69",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-starter/track-d/run.py",
+      "expected_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "actual_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/.gitignore",
+      "expected_git_blob": "42e7ad73ddedc7c3c4c850e50b2643185e4c2dc0",
+      "actual_git_blob": "42e7ad73ddedc7c3c4c850e50b2643185e4c2dc0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/CONVENTIONS.md",
+      "expected_git_blob": "5d922db8800ec964a5b84656d706a3ef76135edd",
+      "actual_git_blob": "5d922db8800ec964a5b84656d706a3ef76135edd",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/LICENSE",
+      "expected_git_blob": "04e9eadd753e9a41b32398de7ad2781d4c4b9fc2",
+      "actual_git_blob": "04e9eadd753e9a41b32398de7ad2781d4c4b9fc2",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/README.md",
+      "expected_git_blob": "e486750d0386a15dc9ebc2936729fd75a44411f2",
+      "actual_git_blob": "e486750d0386a15dc9ebc2936729fd75a44411f2",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/README.md",
+      "expected_git_blob": "0939e1f1c7c292f3e556c72ff3321f5b172a3e1b",
+      "actual_git_blob": "0939e1f1c7c292f3e556c72ff3321f5b172a3e1b",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/axes.py",
+      "expected_git_blob": "5c69bc1cbbe655aed05b26814aa41a434b65f74e",
+      "actual_git_blob": "5c69bc1cbbe655aed05b26814aa41a434b65f74e",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/board.example.json",
+      "expected_git_blob": "3137c03575a6c1492987ff477b62454d399c4e2b",
+      "actual_git_blob": "3137c03575a6c1492987ff477b62454d399c4e2b",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/board.py",
+      "expected_git_blob": "2c0582840aef47118a5eb8906e5266cb6b345ee0",
+      "actual_git_blob": "2c0582840aef47118a5eb8906e5266cb6b345ee0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/buildkitd.toml",
+      "expected_git_blob": "6b38503e5d8268e2a7db3b9aec93399c01b529a0",
+      "actual_git_blob": "6b38503e5d8268e2a7db3b9aec93399c01b529a0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/fairqueue.py",
+      "expected_git_blob": "4774a4abd50be65bc5189c8a4e0906d7650bcc34",
+      "actual_git_blob": "4774a4abd50be65bc5189c8a4e0906d7650bcc34",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/github_app.py",
+      "expected_git_blob": "979b7916bf8e34413b38071b745bd416be2f10c9",
+      "actual_git_blob": "979b7916bf8e34413b38071b745bd416be2f10c9",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/guards.py",
+      "expected_git_blob": "60203616c243729328b67ebecbc1295430a0b302",
+      "actual_git_blob": "60203616c243729328b67ebecbc1295430a0b302",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/health.py",
+      "expected_git_blob": "58f3de4cd53e3d65cd92a345a231dd883b17ef57",
+      "actual_git_blob": "58f3de4cd53e3d65cd92a345a231dd883b17ef57",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/publish.sh",
+      "expected_git_blob": "7bdef16fa2ae8811a75abb675a5f0891aba3abc2",
+      "actual_git_blob": "7bdef16fa2ae8811a75abb675a5f0891aba3abc2",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/records.py",
+      "expected_git_blob": "6e79962f1d13e6e6895fb086a9ed36be5ca962ea",
+      "actual_git_blob": "6e79962f1d13e6e6895fb086a9ed36be5ca962ea",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/security.py",
+      "expected_git_blob": "1e08046fd788b1ef73bf040a58f6cbb083198ca6",
+      "actual_git_blob": "1e08046fd788b1ef73bf040a58f6cbb083198ca6",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/sources.py",
+      "expected_git_blob": "c12f50f39f12a275ad12fe039e7c03ad5e117ed2",
+      "actual_git_blob": "c12f50f39f12a275ad12fe039e7c03ad5e117ed2",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/speeddemon-board-publish.service",
+      "expected_git_blob": "4ee3487f4a5bc9a22d47d002d72a720237ef89c7",
+      "actual_git_blob": "4ee3487f4a5bc9a22d47d002d72a720237ef89c7",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/speeddemon-board.service",
+      "expected_git_blob": "d5ee12086011d9d5bd7f28cd0887eeef468fa1a6",
+      "actual_git_blob": "d5ee12086011d9d5bd7f28cd0887eeef468fa1a6",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/speeddemon-health.service",
+      "expected_git_blob": "1113f7d0526dfedafb0a3ac0490ef0f7b07d8807",
+      "actual_git_blob": "1113f7d0526dfedafb0a3ac0490ef0f7b07d8807",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/speeddemon-tally-sync.service",
+      "expected_git_blob": "5ef443cbaea9808f882b885866f74196b9bde3cf",
+      "actual_git_blob": "5ef443cbaea9808f882b885866f74196b9bde3cf",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/speeddemon-tally-sync.timer",
+      "expected_git_blob": "ec03b56f2b65082c991c8d40094025d29dfe97c6",
+      "actual_git_blob": "ec03b56f2b65082c991c8d40094025d29dfe97c6",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/steps.py",
+      "expected_git_blob": "f862a3e9010e630f4d1cc0416f926ba0340cc637",
+      "actual_git_blob": "f862a3e9010e630f4d1cc0416f926ba0340cc637",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/board/tally_sync.py",
+      "expected_git_blob": "19ae84392f58aae5ad80da13b3054d6593b49794",
+      "actual_git_blob": "19ae84392f58aae5ad80da13b3054d6593b49794",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/generators/a_ingest.py",
+      "expected_git_blob": "ab000ebfa4ed1acc27d552236cc3ac8b9ffae2d8",
+      "actual_git_blob": "ab000ebfa4ed1acc27d552236cc3ac8b9ffae2d8",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/generators/b_index.py",
+      "expected_git_blob": "5521ecc518a55020d143ed2751e4db6d7aa2da90",
+      "actual_git_blob": "5521ecc518a55020d143ed2751e4db6d7aa2da90",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/generators/c_join.py",
+      "expected_git_blob": "7ae613460e73ec4d033ef7ecdfded7c463540d8a",
+      "actual_git_blob": "7ae613460e73ec4d033ef7ecdfded7c463540d8a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/generators/d_traverse.py",
+      "expected_git_blob": "d9c2c040064d4dafb69ec16439bc7f9257ddcab9",
+      "actual_git_blob": "d9c2c040064d4dafb69ec16439bc7f9257ddcab9",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/FINAL_SCORING.md",
+      "expected_git_blob": "05f0c3d25870f3529442f6ba3931952425015726",
+      "actual_git_blob": "05f0c3d25870f3529442f6ba3931952425015726",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/README.md",
+      "expected_git_blob": "e03148758e897e07c4703c4698bf6de4fe90c1b0",
+      "actual_git_blob": "e03148758e897e07c4703c4698bf6de4fe90c1b0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/RECOVERY.md",
+      "expected_git_blob": "eb4a3d07f34e5ae49e691ea6b0ae0ff1e0ee51ec",
+      "actual_git_blob": "eb4a3d07f34e5ae49e691ea6b0ae0ff1e0ee51ec",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/allowlist.json",
+      "expected_git_blob": "da13a1b628defd24cc3066ab97d6e71896b39023",
+      "actual_git_blob": "da13a1b628defd24cc3066ab97d6e71896b39023",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/bootstrap-box.sh",
+      "expected_git_blob": "e160231b22e5542609017ce4e53794b11db32ab0",
+      "actual_git_blob": "e160231b22e5542609017ce4e53794b11db32ab0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/calibrate.py",
+      "expected_git_blob": "0df82872fe372b2314807f81134693962b6c7c82",
+      "actual_git_blob": "0df82872fe372b2314807f81134693962b6c7c82",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/calibration-seed1.json",
+      "expected_git_blob": "be765aa4ff589958f5234bf398433d6e33748117",
+      "actual_git_blob": "be765aa4ff589958f5234bf398433d6e33748117",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/dependencies.py",
+      "expected_git_blob": "33730fde098daff015fbd8132dd47a13b712d20f",
+      "actual_git_blob": "33730fde098daff015fbd8132dd47a13b712d20f",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/dockerfile_check.py",
+      "expected_git_blob": "cb0afce1efb8bc07ee9325e7e73db94f6a01babd",
+      "actual_git_blob": "cb0afce1efb8bc07ee9325e7e73db94f6a01babd",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/final_scoring.py",
+      "expected_git_blob": "0da0d48b27739af08a7d463ce1505251684a6117",
+      "actual_git_blob": "0da0d48b27739af08a7d463ce1505251684a6117",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/harden-box.sh",
+      "expected_git_blob": "2b8a77f6dac76d9802ae2cb460ad1eb0f1abc5d1",
+      "actual_git_blob": "2b8a77f6dac76d9802ae2cb460ad1eb0f1abc5d1",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/images/rust-llvm-tools/Dockerfile",
+      "expected_git_blob": "ed7096b13251cb338593b4e65a36fbeaef12cee0",
+      "actual_git_blob": "ed7096b13251cb338593b4e65a36fbeaef12cee0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/reference_axes.json",
+      "expected_git_blob": "a70d796fb85d90ea25e80210df7b005f09d76f7a",
+      "actual_git_blob": "a70d796fb85d90ea25e80210df7b005f09d76f7a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/run_submission.py",
+      "expected_git_blob": "2f63c2b2196763ecf8d4a62a082bec39b740bcd6",
+      "actual_git_blob": "2f63c2b2196763ecf8d4a62a082bec39b740bcd6",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/scoring.py",
+      "expected_git_blob": "f3858e2e7b04b73b1229d48b99579648614ffddb",
+      "actual_git_blob": "f3858e2e7b04b73b1229d48b99579648614ffddb",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/setup-box.sh",
+      "expected_git_blob": "890b8a487cbc3e6b92d955fa1c7dedd671192a70",
+      "actual_git_blob": "890b8a487cbc3e6b92d955fa1c7dedd671192a70",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/static_axes.py",
+      "expected_git_blob": "d3d19b6c380184fbe8cc1e18734788ffa573ddbe",
+      "actual_git_blob": "d3d19b6c380184fbe8cc1e18734788ffa573ddbe",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/timer/sd-timer.c",
+      "expected_git_blob": "575a9c8f05203c9055ddd2981e464e60e90ef41c",
+      "actual_git_blob": "575a9c8f05203c9055ddd2981e464e60e90ef41c",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/tools/Dockerfile",
+      "expected_git_blob": "b423ee399d6e175b41345a24aaeeb014f5f7de1a",
+      "actual_git_blob": "b423ee399d6e175b41345a24aaeeb014f5f7de1a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/harness/tools/fetch.py",
+      "expected_git_blob": "9ed55442611628e441d8e08fd46c36989308e558",
+      "actual_git_blob": "9ed55442611628e441d8e08fd46c36989308e558",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/reference/Dockerfile",
+      "expected_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "actual_git_blob": "0e86f12765d3f882b96d724f3a36c7cda4a48cc0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/reference/a_ingest.py",
+      "expected_git_blob": "32db204308ba386c88e1e23d4a832f5318682523",
+      "actual_git_blob": "32db204308ba386c88e1e23d4a832f5318682523",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/reference/b_index.py",
+      "expected_git_blob": "fd7151096645347825627df16ae4786c89e46649",
+      "actual_git_blob": "fd7151096645347825627df16ae4786c89e46649",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/reference/c_join.py",
+      "expected_git_blob": "344ea5e33a0f8d2f9259d66e4e63f4bcac1d797c",
+      "actual_git_blob": "344ea5e33a0f8d2f9259d66e4e63f4bcac1d797c",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/reference/d_traverse.py",
+      "expected_git_blob": "283863eeb5e3947bb49abd6af577b531fc410f69",
+      "actual_git_blob": "283863eeb5e3947bb49abd6af577b531fc410f69",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/reference/run.py",
+      "expected_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "actual_git_blob": "4e20aaa8edb83ee708280b753af0d38aa130028a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/specs/a-ingest.md",
+      "expected_git_blob": "32283113a47fc811137f8291700b30f6d5a19fc9",
+      "actual_git_blob": "32283113a47fc811137f8291700b30f6d5a19fc9",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/specs/b-index.md",
+      "expected_git_blob": "bb7346cff3e3d59c3777c1c09cd8947a72670d39",
+      "actual_git_blob": "bb7346cff3e3d59c3777c1c09cd8947a72670d39",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/specs/c-join.md",
+      "expected_git_blob": "121193adb31078dacf0e954ac116ebb7ee3243f5",
+      "actual_git_blob": "121193adb31078dacf0e954ac116ebb7ee3243f5",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/specs/d-traverse.md",
+      "expected_git_blob": "445091484bc30140d7138d7a683615d278df032a",
+      "actual_git_blob": "445091484bc30140d7138d7a683615d278df032a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/.gitignore",
+      "expected_git_blob": "1fe58d7e41b1b2de69d055579ced06a866dd35bb",
+      "actual_git_blob": "1fe58d7e41b1b2de69d055579ced06a866dd35bb",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/go.mod",
+      "expected_git_blob": "24ecc49009ef58f42ee83a86c7f3444d13b5a210",
+      "actual_git_blob": "24ecc49009ef58f42ee83a86c7f3444d13b5a210",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/local/go.mod",
+      "expected_git_blob": "04fda4b788f6e1860be7d25206ddf5476ff0793c",
+      "actual_git_blob": "04fda4b788f6e1860be7d25206ddf5476ff0793c",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/local/local.go",
+      "expected_git_blob": "8dbecd65cbbcec45db95f0f25f7c669e57bd2326",
+      "actual_git_blob": "8dbecd65cbbcec45db95f0f25f7c669e57bd2326",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/main.go",
+      "expected_git_blob": "fbf61a2da6a6476f7102e7305eed715a1dac9ffd",
+      "actual_git_blob": "fbf61a2da6a6476f7102e7305eed715a1dac9ffd",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/vendor/example.com/local/local.go",
+      "expected_git_blob": "8dbecd65cbbcec45db95f0f25f7c669e57bd2326",
+      "actual_git_blob": "8dbecd65cbbcec45db95f0f25f7c669e57bd2326",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/vendor/github.com/a/b/b.go",
+      "expected_git_blob": "09a435f8f845890133c838dc7e950b81454fde12",
+      "actual_git_blob": "09a435f8f845890133c838dc7e950b81454fde12",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/vendor/github.com/a/b/internal/x.go",
+      "expected_git_blob": "ca3ed2d663bd0c83983a9655a7a7367ae2a430a3",
+      "actual_git_blob": "ca3ed2d663bd0c83983a9655a7a7367ae2a430a3",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/vendor/github.com/c/d/d.go",
+      "expected_git_blob": "142fb423f66d15815b3e37fdc570ef5a70f9b5a1",
+      "actual_git_blob": "142fb423f66d15815b3e37fdc570ef5a70f9b5a1",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/vendor/golang.org/x/sys/unix/u.go",
+      "expected_git_blob": "6a5e30f7e857018e74265c6a5f82d21b0b586833",
+      "actual_git_blob": "6a5e30f7e857018e74265c6a5f82d21b0b586833",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/go/vendor/modules.txt",
+      "expected_git_blob": "ed6eae4cb59fa6e8149488c850a9a0e63be04f84",
+      "actual_git_blob": "ed6eae4cb59fa6e8149488c850a9a0e63be04f84",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/java/pom.xml",
+      "expected_git_blob": "2f4ac12691ae540fb893d2c92de525b4e99f0d73",
+      "actual_git_blob": "2f4ac12691ae540fb893d2c92de525b4e99f0d73",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/java/src/main/java/fixture/Main.java",
+      "expected_git_blob": "811eb10fb4f8d7f71e205ead4bb9315e462928fc",
+      "actual_git_blob": "811eb10fb4f8d7f71e205ead4bb9315e462928fc",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/java/src/test/java/fixture/MainTest.java",
+      "expected_git_blob": "1e98e0f49296f16a677cbe27c43531174c8959d9",
+      "actual_git_blob": "1e98e0f49296f16a677cbe27c43531174c8959d9",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/.prettierignore",
+      "expected_git_blob": "72e8ffc0db8aad71a934dd11e5968bd5109e54b4",
+      "actual_git_blob": "72e8ffc0db8aad71a934dd11e5968bd5109e54b4",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/.prettierrc",
+      "expected_git_blob": "c721385451c869480c6c8c91a0f583849d0a1fd3",
+      "actual_git_blob": "c721385451c869480c6c8c91a0f583849d0a1fd3",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/index.js",
+      "expected_git_blob": "5f5a85a1bdac7a166d7848ddb78c599ef00deb89",
+      "actual_git_blob": "5f5a85a1bdac7a166d7848ddb78c599ef00deb89",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/lib/util.mjs",
+      "expected_git_blob": "77d44641846f7096ac6834d6a18dfc2df03d33f7",
+      "actual_git_blob": "77d44641846f7096ac6834d6a18dfc2df03d33f7",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/node_modules/.package-lock.json",
+      "expected_git_blob": "d034295183386ad94a525e49ea5130c8e1a129a1",
+      "actual_git_blob": "d034295183386ad94a525e49ea5130c8e1a129a1",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/node_modules/@scope/pkg/index.js",
+      "expected_git_blob": "d752e206ca2739b0f82b2602ec83d3d6229e5ba0",
+      "actual_git_blob": "d752e206ca2739b0f82b2602ec83d3d6229e5ba0",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/node_modules/@scope/pkg/package.json",
+      "expected_git_blob": "73aa084d47f984e1e01e7b57be4ae60a7ac65c6a",
+      "actual_git_blob": "73aa084d47f984e1e01e7b57be4ae60a7ac65c6a",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/node_modules/fast-alias/index.js",
+      "expected_git_blob": "4bbffde1044258153b038e2ca9a53a2b36c6c133",
+      "actual_git_blob": "4bbffde1044258153b038e2ca9a53a2b36c6c133",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/node_modules/fast-alias/package.json",
+      "expected_git_blob": "dc065b13c33f541b137a685cbb863b2acebbbc96",
+      "actual_git_blob": "dc065b13c33f541b137a685cbb863b2acebbbc96",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/node_modules/left-pad/index.js",
+      "expected_git_blob": "4ce3d4a2bdfcb46b73c45b4967f48570a1d5fc02",
+      "actual_git_blob": "4ce3d4a2bdfcb46b73c45b4967f48570a1d5fc02",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/node_modules/left-pad/package.json",
+      "expected_git_blob": "d04b16b5865f19385c65abd788264c14a447c949",
+      "actual_git_blob": "d04b16b5865f19385c65abd788264c14a447c949",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/node_modules/not-a-package/x.js",
+      "expected_git_blob": "bd816eaba4ca3be8e4d68cfc0ae9f64b5aa712cc",
+      "actual_git_blob": "bd816eaba4ca3be8e4d68cfc0ae9f64b5aa712cc",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/package-lock.json",
+      "expected_git_blob": "81e7577a9334d46c0a0cdfdc4e9fcfaf0279d578",
+      "actual_git_blob": "81e7577a9334d46c0a0cdfdc4e9fcfaf0279d578",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/javascript/package.json",
+      "expected_git_blob": "e34433254b000543844af48b623386402a683c98",
+      "actual_git_blob": "e34433254b000543844af48b623386402a683c98",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/base.txt",
+      "expected_git_blob": "1e73a3a15135cbbe41004033b552db9b49c21dd3",
+      "actual_git_blob": "1e73a3a15135cbbe41004033b552db9b49c21dd3",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/localpkg/localpkg/__init__.py",
+      "expected_git_blob": "b15b1b0797d64623135bb2d04a67bae078fa44c2",
+      "actual_git_blob": "b15b1b0797d64623135bb2d04a67bae078fa44c2",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/localpkg/pyproject.toml",
+      "expected_git_blob": "db76ed7137a413e53511084bd5819db0deb4d331",
+      "actual_git_blob": "db76ed7137a413e53511084bd5819db0deb4d331",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/main.py",
+      "expected_git_blob": "b96fe1dd9c4e8ec233ba0203daede41553a1c562",
+      "actual_git_blob": "b96fe1dd9c4e8ec233ba0203daede41553a1c562",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/pyproject.toml",
+      "expected_git_blob": "eb4746036942bccf5e2175d17e297d3f96a4e984",
+      "actual_git_blob": "eb4746036942bccf5e2175d17e297d3f96a4e984",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/requirements-dev.txt",
+      "expected_git_blob": "cc52e8cfdc45e570825bec21d46004ddeadb2239",
+      "actual_git_blob": "cc52e8cfdc45e570825bec21d46004ddeadb2239",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/requirements.txt",
+      "expected_git_blob": "eefe7b57eb1cf6ae0ded6e893735f963f37e309f",
+      "actual_git_blob": "eefe7b57eb1cf6ae0ded6e893735f963f37e309f",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/ruff.toml",
+      "expected_git_blob": "e5fa1b078d9340a1ca3528f4b34acbf579c50112",
+      "actual_git_blob": "e5fa1b078d9340a1ca3528f4b34acbf579c50112",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/third_party/bare/helper.py",
+      "expected_git_blob": "c96144203e1e5b3841f65ab93d4f01f4948d708b",
+      "actual_git_blob": "c96144203e1e5b3841f65ab93d4f01f4948d708b",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/third_party/sortedcontainers-2.4.0.dist-info/METADATA",
+      "expected_git_blob": "12cb0afdcd76903971453fce48a6ffae625241c5",
+      "actual_git_blob": "12cb0afdcd76903971453fce48a6ffae625241c5",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/third_party/sortedcontainers-2.4.0.dist-info/RECORD",
+      "expected_git_blob": "995e5c5e388bd5e451e2d5af9ab54c2f1adba409",
+      "actual_git_blob": "995e5c5e388bd5e451e2d5af9ab54c2f1adba409",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/third_party/sortedcontainers/__init__.py",
+      "expected_git_blob": "db4fd6da70d07dd009c7bdc7b905fdc125e0b4d9",
+      "actual_git_blob": "db4fd6da70d07dd009c7bdc7b905fdc125e0b4d9",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/third_party/sortedcontainers/added.py",
+      "expected_git_blob": "e14722989883793e84031ea396570bbb20157370",
+      "actual_git_blob": "e14722989883793e84031ea396570bbb20157370",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/python/third_party/sortedcontainers/sorteddict.py",
+      "expected_git_blob": "8067bb0690a366784b47b38226755bd8f75b770b",
+      "actual_git_blob": "8067bb0690a366784b47b38226755bd8f75b770b",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/.cargo/config.toml",
+      "expected_git_blob": "c7aa6b497dda3960e8309c3a881854daa348e0bc",
+      "actual_git_blob": "c7aa6b497dda3960e8309c3a881854daa348e0bc",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/.ignore",
+      "expected_git_blob": "8eba6c8dd4dcaf6166bd22285ed34625f38a84ff",
+      "actual_git_blob": "8eba6c8dd4dcaf6166bd22285ed34625f38a84ff",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/.sccignore",
+      "expected_git_blob": "b59da35ed4322b36b9ad84c9415c994be01c2384",
+      "actual_git_blob": "b59da35ed4322b36b9ad84c9415c994be01c2384",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/.speed-demon.toml",
+      "expected_git_blob": "113c69fea356d2668d804d8479c445d4415a4ded",
+      "actual_git_blob": "113c69fea356d2668d804d8479c445d4415a4ded",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/Cargo.toml",
+      "expected_git_blob": "52ef9e7bcff6895f56fabfc6c567c4ea7c9d8dc3",
+      "actual_git_blob": "52ef9e7bcff6895f56fabfc6c567c4ea7c9d8dc3",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/README.md",
+      "expected_git_blob": "ff92cfa97c0f0eb854abaad989b149b7f3fa3fe6",
+      "actual_git_blob": "ff92cfa97c0f0eb854abaad989b149b7f3fa3fe6",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/crates/local/Cargo.toml",
+      "expected_git_blob": "ba54a1820edfc6fc78b6a3e495960a8487e02283",
+      "actual_git_blob": "ba54a1820edfc6fc78b6a3e495960a8487e02283",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/crates/local/src/lib.rs",
+      "expected_git_blob": "edd659acaa584af5682a444815468fc8b088aa2e",
+      "actual_git_blob": "edd659acaa584af5682a444815468fc8b088aa2e",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/rustfmt.toml",
+      "expected_git_blob": "6904767c9e36b4d602cc89285d1dc9247a1be949",
+      "actual_git_blob": "6904767c9e36b4d602cc89285d1dc9247a1be949",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/src/main.rs",
+      "expected_git_blob": "1810b1d40d1685f1998719e862c58e23cf4dadef",
+      "actual_git_blob": "1810b1d40d1685f1998719e862c58e23cf4dadef",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/vendor/gitdep/.cargo-checksum.json",
+      "expected_git_blob": "1c7e11211e89016075da03d5997728efda11f2d2",
+      "actual_git_blob": "1c7e11211e89016075da03d5997728efda11f2d2",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/vendor/gitdep/Cargo.toml",
+      "expected_git_blob": "2e0cf6c8430eb28e5527ffd5f642e6770e49a48c",
+      "actual_git_blob": "2e0cf6c8430eb28e5527ffd5f642e6770e49a48c",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/vendor/gitdep/src/lib.rs",
+      "expected_git_blob": "812dcaf25197274edee383552de0781547410755",
+      "actual_git_blob": "812dcaf25197274edee383552de0781547410755",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/vendor/memchr/.cargo-checksum.json",
+      "expected_git_blob": "08c848e251b8a4739fc5322c6c07776101da5a86",
+      "actual_git_blob": "08c848e251b8a4739fc5322c6c07776101da5a86",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/vendor/memchr/Cargo.toml",
+      "expected_git_blob": "b6e1cc13c0c79d58a441974be5e2fd60e0ad0a66",
+      "actual_git_blob": "b6e1cc13c0c79d58a441974be5e2fd60e0ad0a66",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/vendor/memchr/src/extra.rs",
+      "expected_git_blob": "397c7727e7017082f3a7012181c3c45e0ea2d5a1",
+      "actual_git_blob": "397c7727e7017082f3a7012181c3c45e0ea2d5a1",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/rust/vendor/memchr/src/lib.rs",
+      "expected_git_blob": "4e45ab5ae27caa2c8a722c1758838f4a4ec4e8be",
+      "actual_git_blob": "4e45ab5ae27caa2c8a722c1758838f4a4ec4e8be",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/unknown/.speed-demon.toml",
+      "expected_git_blob": "887a5ceb9bb0c01d694427e9c5cc26523b03ba73",
+      "actual_git_blob": "887a5ceb9bb0c01d694427e9c5cc26523b03ba73",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/unknown/build.zig.zon",
+      "expected_git_blob": "b692eac7b16cf55d57e9ba217950a456150dfa39",
+      "actual_git_blob": "b692eac7b16cf55d57e9ba217950a456150dfa39",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/fixtures/static_axes/unknown/src/main.zig",
+      "expected_git_blob": "adb3845f0174fb80e13d57342ce1aab85af1a9a8",
+      "actual_git_blob": "adb3845f0174fb80e13d57342ce1aab85af1a9a8",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_a_ingest.py",
+      "expected_git_blob": "521d96b4e80767194196e41e1c9a104c9c1569a8",
+      "actual_git_blob": "521d96b4e80767194196e41e1c9a104c9c1569a8",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_b_index.py",
+      "expected_git_blob": "00f4802a7560cc435c13c489c0550d725335b82f",
+      "actual_git_blob": "00f4802a7560cc435c13c489c0550d725335b82f",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_board.py",
+      "expected_git_blob": "e59189013be7090562daa19afde2aa4fbbac1a71",
+      "actual_git_blob": "e59189013be7090562daa19afde2aa4fbbac1a71",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_c_join.py",
+      "expected_git_blob": "e452eea867379a0e6b6fbe097c036dafc1de3303",
+      "actual_git_blob": "e452eea867379a0e6b6fbe097c036dafc1de3303",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_d_traverse.py",
+      "expected_git_blob": "32ffb6b6bcae24ac99b60f903b3d01c42cc34347",
+      "actual_git_blob": "32ffb6b6bcae24ac99b60f903b3d01c42cc34347",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_dockerfile_check.py",
+      "expected_git_blob": "a613b1ad03e32f9a37e0acc7c950ef25d0b94905",
+      "actual_git_blob": "a613b1ad03e32f9a37e0acc7c950ef25d0b94905",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_final_scoring.py",
+      "expected_git_blob": "28a72dded53598bc11c889bdad0f333c1a436ad6",
+      "actual_git_blob": "28a72dded53598bc11c889bdad0f333c1a436ad6",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_health.py",
+      "expected_git_blob": "0d0a7a095a9171e068feaac9f1e894b5f0564385",
+      "actual_git_blob": "0d0a7a095a9171e068feaac9f1e894b5f0564385",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_run_contract.py",
+      "expected_git_blob": "f3306aaefd99526c26fe49e7eeb382f9774b9773",
+      "actual_git_blob": "f3306aaefd99526c26fe49e7eeb382f9774b9773",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_scoring.py",
+      "expected_git_blob": "d6361818371641ee0aee799cffd227b5eb3ee313",
+      "actual_git_blob": "d6361818371641ee0aee799cffd227b5eb3ee313",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_security.py",
+      "expected_git_blob": "0f118b73a145aec806392f5ea52f11194adfd639",
+      "actual_git_blob": "0f118b73a145aec806392f5ea52f11194adfd639",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_static_axes.py",
+      "expected_git_blob": "9e8c04cd3c1d399bda3bcc33c13ce12e485a8b23",
+      "actual_git_blob": "9e8c04cd3c1d399bda3bcc33c13ce12e485a8b23",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_stats.py",
+      "expected_git_blob": "f8df0871284bbee1f5a265ed540861f52df99e3f",
+      "actual_git_blob": "f8df0871284bbee1f5a265ed540861f52df99e3f",
+      "match": true
+    },
+    {
+      "path": "resources/upstream/speed-demon-2026/tests/test_tally_sync.py",
+      "expected_git_blob": "343424524074ee03629276b186adf1b113f6e8d7",
+      "actual_git_blob": "343424524074ee03629276b186adf1b113f6e8d7",
+      "match": true
+    }
+  ]
+}

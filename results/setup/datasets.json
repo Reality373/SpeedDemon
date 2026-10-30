@@ -1,0 +1,405 @@
+{
+  "method": "official generators (direct download DNS unavailable)",
+  "python": "3.14.6 (main, Jun 11 2026, 00:00:00) [GCC 15.2.1 20260123 (Red Hat 15.2.1-7)]",
+  "datasets": [
+    {
+      "track": "a",
+      "scale": "tiny",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/a_ingest.py",
+        "--seed",
+        "1",
+        "--scale",
+        "tiny",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-a/tiny-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 0.11,
+      "stdout": "",
+      "stderr": "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-a/tiny-seed1/requests.log: 1000 lines, 76509 bytes, 0.1 s\n",
+      "files": [
+        {
+          "path": "data/generated/track-a/tiny-seed1/requests.log",
+          "bytes": 76509,
+          "sha256": "a99dd14856a3e6e408097dabc1b3ad5ac5a3801fb12f388bacb2802c8591339f",
+          "expected_sha256": null,
+          "matches_published": null
+        }
+      ]
+    },
+    {
+      "track": "a",
+      "scale": "sample",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/a_ingest.py",
+        "--seed",
+        "1",
+        "--scale",
+        "sample",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-a/sample-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 1.011,
+      "stdout": "",
+      "stderr": "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-a/sample-seed1/requests.log: 310000 lines, 23870290 bytes, 1.0 s\n",
+      "files": [
+        {
+          "path": "data/generated/track-a/sample-seed1/requests.log",
+          "bytes": 23870290,
+          "sha256": "7b22c678acceba2b82120394afe27e827ca4083a677a8e51147defa854c86847",
+          "expected_sha256": null,
+          "matches_published": null
+        }
+      ]
+    },
+    {
+      "track": "a",
+      "scale": "full",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/a_ingest.py",
+        "--seed",
+        "1",
+        "--scale",
+        "full",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-a/full-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 9.329,
+      "stdout": "",
+      "stderr": "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-a/full-seed1/requests.log: 3100000 lines, 238836234 bytes, 9.3 s\n",
+      "files": [
+        {
+          "path": "data/generated/track-a/full-seed1/requests.log",
+          "bytes": 238836234,
+          "sha256": "7ec80ba45bceef51ac7f79d3a14521fc6187b2dcb87b5e5542d08063fe5d962a",
+          "expected_sha256": "7ec80ba45bceef51ac7f79d3a14521fc6187b2dcb87b5e5542d08063fe5d962a",
+          "matches_published": true
+        }
+      ]
+    },
+    {
+      "track": "b",
+      "scale": "tiny",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/b_index.py",
+        "--seed",
+        "1",
+        "--scale",
+        "tiny",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-b/tiny-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 1.718,
+      "stdout": "",
+      "stderr": "docs=1000 docs_bytes=1000131 queries=1000 queries_bytes=35793 distinct_tokens=46109 seconds=1.6\n",
+      "files": [
+        {
+          "path": "data/generated/track-b/tiny-seed1/docs.txt",
+          "bytes": 1000131,
+          "sha256": "2d4ad8af2a61348321fe87c8938df16cf9d6e15b81bb2de388ce71ead791984e",
+          "expected_sha256": null,
+          "matches_published": null
+        },
+        {
+          "path": "data/generated/track-b/tiny-seed1/queries.txt",
+          "bytes": 35793,
+          "sha256": "252247402adabf15ccda4bc80e86e358e479f43135ec3d8870c5ff41001e473f",
+          "expected_sha256": null,
+          "matches_published": null
+        }
+      ]
+    },
+    {
+      "track": "b",
+      "scale": "sample",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/b_index.py",
+        "--seed",
+        "1",
+        "--scale",
+        "sample",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-b/sample-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 9.003,
+      "stdout": "",
+      "stderr": "docs=25000 docs_bytes=25263400 queries=5000 queries_bytes=177987 distinct_tokens=378185 seconds=8.9\n",
+      "files": [
+        {
+          "path": "data/generated/track-b/sample-seed1/docs.txt",
+          "bytes": 25263400,
+          "sha256": "e157fabb5874c6058a3f6c7726f51df08b2369664cc76c52dde62335ef57eaa4",
+          "expected_sha256": null,
+          "matches_published": null
+        },
+        {
+          "path": "data/generated/track-b/sample-seed1/queries.txt",
+          "bytes": 177987,
+          "sha256": "930ba8716d7a9b9b962b24f5c9d11b5e0b1efb1b9c24f775f889e50c639f16aa",
+          "expected_sha256": null,
+          "matches_published": null
+        }
+      ]
+    },
+    {
+      "track": "b",
+      "scale": "full",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/b_index.py",
+        "--seed",
+        "1",
+        "--scale",
+        "full",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-b/full-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 75.233,
+      "stdout": "",
+      "stderr": "docs=250000 docs_bytes=253827587 queries=50000 queries_bytes=1763534 distinct_tokens=609833 seconds=75.1\n",
+      "files": [
+        {
+          "path": "data/generated/track-b/full-seed1/docs.txt",
+          "bytes": 253827587,
+          "sha256": "6cd461670d6c39f9c5211162577532d3648edeab12340c71cc7d2ab5f18e66c8",
+          "expected_sha256": "6cd461670d6c39f9c5211162577532d3648edeab12340c71cc7d2ab5f18e66c8",
+          "matches_published": true
+        },
+        {
+          "path": "data/generated/track-b/full-seed1/queries.txt",
+          "bytes": 1763534,
+          "sha256": "77ef7ffc59afde051006b02a2ce8e4c090fbbfbf101acd6f862d0f8e298d39f9",
+          "expected_sha256": "77ef7ffc59afde051006b02a2ce8e4c090fbbfbf101acd6f862d0f8e298d39f9",
+          "matches_published": true
+        }
+      ]
+    },
+    {
+      "track": "c",
+      "scale": "tiny",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/c_join.py",
+        "--seed",
+        "1",
+        "--scale",
+        "tiny",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-c/tiny-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 0.053,
+      "stdout": "",
+      "stderr": "",
+      "files": [
+        {
+          "path": "data/generated/track-c/tiny-seed1/records.csv",
+          "bytes": 54566,
+          "sha256": "13106a5dd610ef6047ee89113a8eb486dc6ed242b16e3de91b03769b7f525e2d",
+          "expected_sha256": null,
+          "matches_published": null
+        },
+        {
+          "path": "data/generated/track-c/tiny-seed1/regions.csv",
+          "bytes": 17764,
+          "sha256": "92cea6499b66e0ae10dda58c0e74770556466cc09b23fe65b31007ce25fe5cc8",
+          "expected_sha256": null,
+          "matches_published": null
+        }
+      ]
+    },
+    {
+      "track": "c",
+      "scale": "sample",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/c_join.py",
+        "--seed",
+        "1",
+        "--scale",
+        "sample",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-c/sample-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 2.267,
+      "stdout": "",
+      "stderr": "",
+      "files": [
+        {
+          "path": "data/generated/track-c/sample-seed1/records.csv",
+          "bytes": 19846456,
+          "sha256": "07bc636857b70556921be08d406f887eb07dbdacb8384587ed7fd3b52addfd86",
+          "expected_sha256": null,
+          "matches_published": null
+        },
+        {
+          "path": "data/generated/track-c/sample-seed1/regions.csv",
+          "bytes": 2177777,
+          "sha256": "1bd3904fd5eaed7a4dc1ae761bf369521ce5f384e4c400342919d6edf9e5ece1",
+          "expected_sha256": null,
+          "matches_published": null
+        }
+      ]
+    },
+    {
+      "track": "c",
+      "scale": "full",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/c_join.py",
+        "--seed",
+        "1",
+        "--scale",
+        "full",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-c/full-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 13.717,
+      "stdout": "",
+      "stderr": "",
+      "files": [
+        {
+          "path": "data/generated/track-c/full-seed1/records.csv",
+          "bytes": 201935059,
+          "sha256": "36166f4ac44101a22ebf25b4f949436a681a2698cb0f2ae1f7f6853010259f48",
+          "expected_sha256": "36166f4ac44101a22ebf25b4f949436a681a2698cb0f2ae1f7f6853010259f48",
+          "matches_published": true
+        },
+        {
+          "path": "data/generated/track-c/full-seed1/regions.csv",
+          "bytes": 2177799,
+          "sha256": "414c57c4f3ec968f9bce28c59eebfdf57a9425322b468db7ee964c18c4852fe1",
+          "expected_sha256": "414c57c4f3ec968f9bce28c59eebfdf57a9425322b468db7ee964c18c4852fe1",
+          "matches_published": true
+        }
+      ]
+    },
+    {
+      "track": "d",
+      "scale": "tiny",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/d_traverse.py",
+        "--seed",
+        "1",
+        "--scale",
+        "tiny",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-d/tiny-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 0.054,
+      "stdout": "",
+      "stderr": "",
+      "files": [
+        {
+          "path": "data/generated/track-d/tiny-seed1/graph.txt",
+          "bytes": 11056,
+          "sha256": "206898b5d3ef1244c4900362249f2d090ff96cd704cd620d6abb445c863ec685",
+          "expected_sha256": null,
+          "matches_published": null
+        },
+        {
+          "path": "data/generated/track-d/tiny-seed1/queries.txt",
+          "bytes": 296,
+          "sha256": "10dcae5fb50c9f4a5e040148b2cb1153ab1cb489bfb12fc58b4ce0da545fa49a",
+          "expected_sha256": null,
+          "matches_published": null
+        }
+      ]
+    },
+    {
+      "track": "d",
+      "scale": "sample",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/d_traverse.py",
+        "--seed",
+        "1",
+        "--scale",
+        "sample",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-d/sample-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 4.574,
+      "stdout": "",
+      "stderr": "",
+      "files": [
+        {
+          "path": "data/generated/track-d/sample-seed1/graph.txt",
+          "bytes": 8194650,
+          "sha256": "16351d408f1f94a6bcf66de5c5762abede111c07a4a38306253504a6c9c9b7cd",
+          "expected_sha256": null,
+          "matches_published": null
+        },
+        {
+          "path": "data/generated/track-d/sample-seed1/queries.txt",
+          "bytes": 2535,
+          "sha256": "fb4065ffe94d2dd51c924f389bd0c6afa58d42534391aa5b0fe5edfaa33988a5",
+          "expected_sha256": null,
+          "matches_published": null
+        }
+      ]
+    },
+    {
+      "track": "d",
+      "scale": "full",
+      "seed": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/resources/upstream/speed-demon-2026/generators/d_traverse.py",
+        "--seed",
+        "1",
+        "--scale",
+        "full",
+        "--out",
+        "/mnt/E4D843CAD84399A6/Codes/SpeedDemon/data/generated/track-d/full-seed1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 63.167,
+      "stdout": "",
+      "stderr": "",
+      "files": [
+        {
+          "path": "data/generated/track-d/full-seed1/graph.txt",
+          "bytes": 91950247,
+          "sha256": "fe6471f2712d10b23c2ec58a4cbc7db1ea3e742daf6b6db62829e74d6c4a26c7",
+          "expected_sha256": "fe6471f2712d10b23c2ec58a4cbc7db1ea3e742daf6b6db62829e74d6c4a26c7",
+          "matches_published": true
+        },
+        {
+          "path": "data/generated/track-d/full-seed1/queries.txt",
+          "bytes": 29401,
+          "sha256": "160f1ef48378dcb567a8d9ddd2676ee777b044a5ede3ad4c7b42e812aa4b3a6f",
+          "expected_sha256": "160f1ef48378dcb567a8d9ddd2676ee777b044a5ede3ad4c7b42e812aa4b3a6f",
+          "matches_published": true
+        }
+      ]
+    }
+  ]
+}

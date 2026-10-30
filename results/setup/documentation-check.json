@@ -1,0 +1,8 @@
+{
+  "checked_utc": "2026-10-30T16:00:21.991853+00:00",
+  "scope": "Project-authored Markdown local file links and setup JSON parsing; original organizer documents excluded from link lint.",
+  "local_links_checked": 62,
+  "missing_links": [],
+  "json_files_parsed": 7,
+  "passed": true
+}
